@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   root "pages#top"
 
+  resources :users, only: [ :new, :create ]
+
+  resource :session, only: [ :new, :create, :destroy ]
+
   resources :situations, only: [ :index, :show ] do
     member do
       get :result
