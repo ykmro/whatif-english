@@ -1,0 +1,25 @@
+<main class="max-w-3xl mx-auto px-4 sm:px-6 py-16 text-center">
+  <p class="text-xs font-bold tracking-widest text-primary uppercase mb-2">STUDY LOG</p>
+  <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-10">
+    <%= @study_log.loggable.title %>
+  </h1>
+
+  <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 max-w-sm mx-auto mb-10">
+    <div class="mb-6">
+      <p class="text-xs font-bold text-gray-400 tracking-widest uppercase mb-2">実施日時</p>
+      <p class="text-gray-900 text-base font-semibold">
+        <%= l(@study_log.studied_at, format: :long) %>
+      </p>
+    </div>
+
+    <div class="border-t border-gray-100 pt-6">
+      <p class="text-xs font-bold text-gray-400 tracking-widest uppercase mb-2">正答数</p>
+      <p class="text-4xl font-bold text-primary">
+        <%= @study_log.correct_count %>
+      </p>
+    </div>
+  </div>
+
+  <%= link_to "TOPへ戻る", root_path,
+        class: "inline-flex items-center justify-center bg-primary text-white font-bold rounded-full px-10 py-3 hover:opacity-80 transition-opacity duration-300" %>
+</main>
