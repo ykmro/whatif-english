@@ -7,6 +7,7 @@ class SessionsController < ApplicationController
     if user && user.authenticate(session_params[:password])
       log_in user
       flash[:notice] = "ログインしました。"
+      user.last_login_date
       redirect_to "/"
     else
       flash[:danger] = "メールアドレスまたはパスワードの組み合わせが正しくありません。"
