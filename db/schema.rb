@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2026_05_25_104346) do
+ActiveRecord::Schema[7.0].define(version: 2026_05_27_103359) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -67,10 +67,10 @@ ActiveRecord::Schema[7.0].define(version: 2026_05_25_104346) do
 
   create_table "word_choices", force: :cascade do |t|
     t.bigint "word_id", null: false
-    t.integer "wrong_word_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "situation_id", null: false
+    t.boolean "is_correct"
     t.index ["situation_id"], name: "index_word_choices_on_situation_id"
     t.index ["word_id"], name: "index_word_choices_on_word_id"
   end
@@ -87,5 +87,4 @@ ActiveRecord::Schema[7.0].define(version: 2026_05_25_104346) do
   add_foreign_key "study_logs", "users"
   add_foreign_key "word_choices", "situations"
   add_foreign_key "word_choices", "words"
-  add_foreign_key "word_choices", "words", column: "wrong_word_id"
 end
