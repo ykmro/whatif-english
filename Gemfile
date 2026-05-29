@@ -47,6 +47,8 @@ group :development do
   gem "web-console"
 end
 
-gem "tailwindcss-rails", "~> 2.0"
+gem "dartsass-rails", "~> 0.4.0"
+
+gem "sassc"
 
 gem "bcrypt", "~> 3.1.7"
