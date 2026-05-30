@@ -23,16 +23,54 @@ document.addEventListener('turbo:load', () => {
     return utterance;
   };
 
+  const playSound = (isCorrect) => {
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    if (!AudioCtx) return;
+    const ctx = new AudioCtx();
+    if (isCorrect) {
+      [523, 659, 784].forEach((freq, i) => {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.type = 'sine';
+        osc.frequency.value = freq;
+        const t = ctx.currentTime + i * 0.12;
+        gain.gain.setValueAtTime(0.3, t);
+        gain.gain.exponentialRampToValueAtTime(0.001, t + 0.4);
+        osc.start(t);
+        osc.stop(t + 0.4);
+      });
+    } else {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(380, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(220, ctx.currentTime + 0.5);
+      gain.gain.setValueAtTime(0.3, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.55);
+      osc.start(ctx.currentTime);
+      osc.stop(ctx.currentTime + 0.55);
+    }
+  };
+
   document.querySelectorAll('#choice_form input[type="radio"]').forEach(radio => {
     radio.addEventListener('change', () => {
       const isCorrect = radio.dataset.correct === 'true';
-      const message = isCorrect ? 'Nice Choice!!' : 'Good!!';
 
       const overlay = document.getElementById('answer-overlay');
       if (overlay) {
-        overlay.querySelector('.answer-overlay__message').textContent = message;
+        const correctIcon = document.getElementById('overlay-correct');
+        const incorrectIcon = document.getElementById('overlay-incorrect');
+        correctIcon.classList.remove('is-animating');
+        incorrectIcon.classList.remove('is-animating');
         overlay.classList.add('is-active');
-        speak(message, { rate: 1.1, pitch: 0.8 });
+        playSound(isCorrect);
+        requestAnimationFrame(() => {
+          (isCorrect ? correctIcon : incorrectIcon).classList.add('is-animating');
+        });
         setTimeout(() => {
           document.getElementById('choice_form').requestSubmit();
         }, 1500);

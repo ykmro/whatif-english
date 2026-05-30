@@ -47,6 +47,16 @@
 
   <%# Answer overlay %>
   <div id="answer-overlay" class="answer-overlay">
-    <p class="answer-overlay__message"></p>
+    <div id="overlay-correct" class="answer-overlay__icon">
+      <svg class="answer-overlay__svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle class="circle-path" cx="50" cy="50" r="40" stroke="#4ade80" stroke-width="7" stroke-linecap="round" transform="rotate(-90 50 50)"/>
+      </svg>
+    </div>
+    <div id="overlay-incorrect" class="answer-overlay__icon">
+      <svg class="answer-overlay__svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line class="cross-line-1" x1="20" y1="20" x2="80" y2="80" stroke="#f87171" stroke-width="7" stroke-linecap="round"/>
+        <line class="cross-line-2" x1="80" y1="20" x2="20" y2="80" stroke="#f87171" stroke-width="7" stroke-linecap="round"/>
+      </svg>
+    </div>
   </div>
 </main>

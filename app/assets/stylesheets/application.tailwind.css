@@ -27,12 +27,44 @@
     opacity: 1;
     visibility: visible;
   }
-  .answer-overlay__message {
-    font-weight: bold;
-    color: #fff;
-    text-align: center;
-    font-size: 3.5rem;
-    line-height: 1.2;
+  .answer-overlay__icon {
+    display: none;
+  }
+  .answer-overlay__svg {
+    width: 160px;
+    height: 160px;
+  }
+  .answer-overlay__icon.is-animating {
+    display: block;
+    animation: icon-pop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  }
+  .circle-path {
+    stroke-dasharray: 251;
+    stroke-dashoffset: 251;
+  }
+  #overlay-correct.is-animating .circle-path {
+    animation: draw-circle 0.6s ease-out forwards;
+  }
+  .cross-line-1,
+  .cross-line-2 {
+    stroke-dasharray: 85;
+    stroke-dashoffset: 85;
+  }
+  #overlay-incorrect.is-animating .cross-line-1 {
+    animation: draw-line 0.3s ease-out forwards;
+  }
+  #overlay-incorrect.is-animating .cross-line-2 {
+    animation: draw-line 0.3s ease-out 0.25s forwards;
+  }
+  @keyframes draw-circle {
+    to { stroke-dashoffset: 0; }
+  }
+  @keyframes draw-line {
+    to { stroke-dashoffset: 0; }
+  }
+  @keyframes icon-pop {
+    from { transform: scale(0.5); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
   }
 
   /* Choice speaker button speaking state */
