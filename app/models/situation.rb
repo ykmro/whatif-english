@@ -3,6 +3,7 @@ class Situation < ApplicationRecord
 
   has_many :study_logs, as: :loggable
 
+  validates :slug,     presence: true, uniqueness: true
   validates :title,    presence: true
   validates :overview, presence: true
   validates :scenario, presence: true
