@@ -28,6 +28,12 @@ Dir.glob(File.join(yaml_dir, "*.yml")).sort.each do |file|
     step.body = step_data["body"]
     step.save!
 
+    # stepと同じく削除
+    yaml_choice_bodies = (step_data["choices"] || []).map { |c| c["body"] }
+    db_choice_bodies   = step.choices.pluck(:body)
+    choice_diffs = db_choice_bodies - yaml_choice_bodies
+    step.choices.where(body: choice_diffs).destroy_all
+
     (step_data["choices"] || []).each do |choice_data|
       choice = step.choices.find_or_initialize_by(body: choice_data["body"])
       choice.assign_attributes(
