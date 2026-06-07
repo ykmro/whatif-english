@@ -13,6 +13,16 @@ Dir.glob(File.join(yaml_dir, "*.yml")).sort.each do |file|
   )
   situation.save!
 
+  yaml_step_numbers = (data["steps"] || []).map { |s| s["step_number"] }
+  db_step_numbers   = situation.steps.pluck(:step_number)
+  # Rubyで差集合（ある配列から別の配列に含まれる要素を取り除いたもの）を求めるには、- 演算子を使用します。
+  # 左側の配列から、右側の配列に存在する要素をすべて削除した新しい配列を返します
+  step_diffs = db_step_numbers - yaml_step_numbers
+
+  # ymlとDBに差異があれば反映
+  situation.steps.where(step_number: step_diffs).destroy_all
+
+  # data["steps"] が nil（キーが存在しない等）→ [] を代わりに使う
   (data["steps"] || []).each do |step_data|
     step = situation.steps.find_or_initialize_by(step_number: step_data["step_number"])
     step.body = step_data["body"]
