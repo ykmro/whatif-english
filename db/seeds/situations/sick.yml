@@ -1,266 +1,322 @@
 slug: "sick"
+cefr: "b1"
 title: "現地で体調を崩したときに使える英会話"
-overview: "海外旅行中に体調が悪くなったときに使える英会話を学びます。"
-scenario: "海外旅行中に急に熱と吐き気に襲われました。近くに病院を探し、症状を伝え、救急車を呼ぶ必要があるかもしれません。"
+overview: "海外旅行中に発熱や吐き気などの体調不良が起きたとき、症状を伝えて医療機関を利用するための英会話を学びます。"
+scenario: "旅行中に突然発熱と吐き気に襲われました。ホテルのスタッフや病院・薬局でスムーズにコミュニケーションが取れるよう、体調不良を伝える英会話を身につけましょう。"
 thumbnail: "top/situation_thum_sick.png"
 steps:
   - step_number: 1
-    body: "「熱」を英語で言うと？"
+    body: "「熱（発熱）」を英語で言うと？"
     choices:
       - body: "fever"
         is_correct: true
         feedback: |-
-          正解！「熱」は <b>fever</b> です。体温が上がった状態を指します。"temperature" も「体温」という意味で使えますが、"have a fever" が発熱の定番表現です。
-      - body: "cold"
-        is_correct: false
-        feedback: |-
-          惜しい！「熱」は <b>fever</b> です。"cold" は「風邪」の意味になります。
+          正解！「発熱」は <b>fever</b> です。"I have a fever."（熱があります）が医療現場での標準表現。"high fever"（高熱）・"slight fever"（微熱）のように形容詞を前に置いて使えます。
       - body: "temperature"
         is_correct: false
         feedback: |-
-          惜しい！「熱」は <b>fever</b> です。"temperature" は「体温・温度」全般を指します。
+          惜しい！正解は <b>fever</b> です。"temperature" は体温全般を指す言葉で、"I have a temperature" も口語では通じますが、医療現場では "fever" が標準的です。TOEICでも "fever" が正解になるケースが多いです。
+      - body: "cold"
+        is_correct: false
+        feedback: |-
+          惜しい！「熱（発熱）」は <b>fever</b> です。"cold" は「風邪」のこと。"I have a cold."（風邪をひいています）と "I have a fever."（熱があります）を混同しないよう注意。日本人が最も混同しやすいペアです。
   - step_number: 2
     body: "「熱があるようです」を英語で言うと？"
     choices:
       - body: "I think I have a fever."
         is_correct: true
         feedback: |-
-          正解！「熱があるようです」は <b>I think I have a fever.</b> です。"I think" を冒頭に置くことで断定を避け、「〜のようです」という不確かさを自然に表現できます。
+          正解！<b>I think I have a fever.</b> "I think〜" を冒頭に置くと「〜のようです・〜だと思います」という不確かさを自然に表現できます。病院・薬局・ホテルのフロントでそのまま使える実用的な一言です。
       - body: "I feel hot."
         is_correct: false
         feedback: |-
-          惜しい！「熱があるようです」は <b>I think I have a fever.</b> です。"I feel hot" は「暑く感じる」という意味で、発熱の申告としては不十分です。
+          惜しい！正解は <b>I think I have a fever.</b> です。"I feel hot" は「（暑くて）熱く感じる」という意味にもとれるため、発熱の申告としては不十分です。"fever" という単語を使って明確に伝えましょう。
       - body: "I have a high temperature."
         is_correct: false
         feedback: |-
-          惜しい！「熱があるようです」は <b>I think I have a fever.</b> です。
+          惜しい！正解は <b>I think I have a fever.</b> です。"I have a high temperature" も正しい英語ですが、「発熱」の自然な表現は "have a fever" です。TOEICリスニングでも "have a fever" が頻出します。
   - step_number: 3
     body: "「熱があるようです。」を英語で言うと？"
     choices:
       - body: "I think I have a fever."
         is_correct: true
         feedback: |-
-          正解！<br>"I think" で不確かさを表しつつ、"have a fever" で発熱の状態を伝えます。医療機関や薬局でそのまま使える実用的な一言です。
+          正解！<b>I think I have a fever.</b> "I think〜" は断定を避けつつ状況を伝える便利な表現。薬局の窓口や病院の受付での第一声として使えます。
       - body: "I feel like I have a cold."
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>I think I have a fever.</b> です。
-      - body: "My body feels warm."
+          惜しい！正解は <b>I think I have a fever.</b> です。"feel like I have a cold" は「風邪をひいた気がする」という意味。"fever"（発熱）と "cold"（風邪）は別の症状なので使い分けが重要です。
+      - body: "My body is getting hot."
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>I think I have a fever.</b> です。
+          惜しい！正解は <b>I think I have a fever.</b> です。"My body is getting hot" は日本語の直訳調で不自然です。「熱がある」の英語は "have a fever" という慣用表現を使いましょう。
   - step_number: 4
-    body: "今回のフレーズをもう一度確認しましょう。<br>「熱があるようです。」"
-    choices:
-      - body: "I think I have a fever."
-        is_correct: true
-        feedback: |-
-          "I think" を冒頭に置くと「〜だと思います・〜のようです」という控えめなニュアンスになります。海外の医療現場では症状を正確に伝えることが大切です。
-  - step_number: 5
-    body: "「吐き気がする」を英語で言うと？"
+    body: "「吐き気がする（状態）」を表す英語は？"
     choices:
       - body: "nauseous"
         is_correct: true
         feedback: |-
-          正解！「吐き気がする」は <b>nauseous</b> です。形容詞で「むかむかする・吐き気を催している」状態を表します。"I feel nauseous." が定番の言い方です。
+          正解！「吐き気がする（状態）」は形容詞 <b>nauseous</b> です。"I feel nauseous."（吐き気がします）が定番の言い方。アメリカ英語では "nauseated" も使われます。発音は「ノージアス」。
       - body: "dizzy"
         is_correct: false
         feedback: |-
-          惜しい！「吐き気がする」は <b>nauseous</b> です。"dizzy" は「めまいがする」という意味です。
+          惜しい！"dizzy" は「めまいがする」という意味です。「吐き気」には <b>nauseous</b> を使います。"nauseous"（吐き気）と "dizzy"（めまい）はセットで起きやすい症状なので、区別して覚えましょう。
       - body: "sick"
         is_correct: false
         feedback: |-
-          惜しい！「吐き気がする」は <b>nauseous</b> です。"sick" は広く「具合が悪い」を意味しますが、吐き気の具体的な表現としては "nauseous" が適切です。
-  - step_number: 6
+          惜しい！"sick" は「具合が悪い」という広い意味を持ちますが、吐き気を具体的に伝えるには <b>nauseous</b> が正確です。イギリス英語では "I feel sick" が吐き気を意味することもありますが、アメリカ英語では "nauseous" が標準的です。
+  - step_number: 5
     body: "「吐き気とめまいがします」を英語で言うと？"
     choices:
       - body: "I feel nauseous and dizzy."
         is_correct: true
         feedback: |-
-          正解！「吐き気とめまいがします」は <b>I feel nauseous and dizzy.</b> です。"I feel＋形容詞" で体の状態を伝える構文。複数の症状を "and" でつなぐことで一度に説明できます。
+          正解！<b>I feel nauseous and dizzy.</b> "I feel＋形容詞" で体の状態を伝える構文。複数の症状を "and" でつなぐことで一度に説明できます。医療現場で即通じる自然な表現です。
       - body: "I have a stomachache and headache."
         is_correct: false
         feedback: |-
-          惜しい！「吐き気とめまいがします」は <b>I feel nauseous and dizzy.</b> です。
+          惜しい！正解は <b>I feel nauseous and dizzy.</b> です。"stomachache"（胃痛・腹痛）や "headache"（頭痛）は痛みの症状。吐き気・めまいとは異なる症状なので正確に使い分けましょう。
       - body: "I'm feeling sick and tired."
         is_correct: false
         feedback: |-
-          惜しい！「吐き気とめまいがします」は <b>I feel nauseous and dizzy.</b> です。
-  - step_number: 7
+          惜しい！正解は <b>I feel nauseous and dizzy.</b> です。"sick and tired" は「うんざりしている」という慣用句です。体調不良の文脈では誤解を生むので注意が必要です。日本人が混同しやすいパターンです。
+  - step_number: 6
     body: "「吐き気とめまいがします。」を英語で言うと？"
     choices:
       - body: "I feel nauseous and dizzy."
         is_correct: true
         feedback: |-
-          正解！<br>"nauseous" は吐き気、"dizzy" はめまいを表す形容詞。"I feel＋形容詞" の構文で体調の症状をまとめて伝えることができます。
+          正解！<b>I feel nauseous and dizzy.</b> "I feel＋形容詞" は体調を伝える万能構文。"weak"（だるい）・"faint"（ふらふらする）・"short of breath"（息苦しい）など、症状の形容詞を入れ替えて応用できます。
       - body: "I have nausea and vertigo."
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>I feel nauseous and dizzy.</b> です。
-      - body: "My stomach hurts and I can't stand."
+          惜しい！正解は <b>I feel nauseous and dizzy.</b> です。"nausea" と "vertigo" は医学用語として正しいですが、会話では形容詞を使った "I feel nauseous and dizzy." の方が自然で通じやすいです。
+      - body: "My stomach feels bad and I can't see straight."
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>I feel nauseous and dizzy.</b> です。
-  - step_number: 8
-    body: "今回のフレーズをもう一度確認しましょう。<br>「吐き気とめまいがします。」"
-    choices:
-      - body: "I feel nauseous and dizzy."
-        is_correct: true
-        feedback: |-
-          "I feel＋形容詞" は体の状態を伝える基本構文です。"nauseous"（吐き気）・"dizzy"（めまい）・"weak"（だるい）など、症状を表す形容詞を入れ替えて使えます。
-  - step_number: 9
-    body: "「近くに」を英語で言うと？"
-    choices:
-      - body: "nearby"
-        is_correct: true
-        feedback: |-
-          正解！「近くに」は <b>nearby</b> です。副詞・形容詞として使えます。"Is there a pharmacy nearby?" のように文末に置くのが自然な使い方です。
-      - body: "close"
-        is_correct: false
-        feedback: |-
-          惜しい！「近くに」は <b>nearby</b> です。"close" も「近い」という意味ですが、"nearby" の方が場所を探す文脈でよく使われます。
-      - body: "around"
-        is_correct: false
-        feedback: |-
-          惜しい！「近くに」は <b>nearby</b> です。"around here" で「この辺に」という表現になります。
-  - step_number: 10
+          惜しい！正解は <b>I feel nauseous and dizzy.</b> です。"feels bad" では症状が漠然としています。"nauseous"・"dizzy" などの確立した形容詞を使うことで、医療スタッフに正確に伝わります。
+  - step_number: 7
     body: "「英語を話せる医者」を英語で言うと？"
     choices:
       - body: "an English-speaking doctor"
         is_correct: true
         feedback: |-
-          正解！「英語を話せる医者」は <b>an English-speaking doctor</b> です。"〜-speaking" は「〜語を話す」という意味の複合形容詞です。"Japanese-speaking staff" のように応用できます。
-      - body: "a doctor who speaks English"
-        is_correct: false
-        feedback: |-
-          惜しい！「英語を話せる医者」は <b>an English-speaking doctor</b> です。意味は同じですが、より簡潔な表現を覚えましょう。
+          正解！「英語を話せる医者」は <b>an English-speaking doctor</b> です。"〜-speaking" は「〜語を話す」という複合形容詞。"Japanese-speaking staff"（日本語を話すスタッフ）などにも応用できます。
       - body: "an English doctor"
         is_correct: false
         feedback: |-
-          惜しい！「英語を話せる医者」は <b>an English-speaking doctor</b> です。"an English doctor" だと「イギリス人の医者」になってしまいます。
-  - step_number: 11
+          惜しい！正解は <b>an English-speaking doctor</b> です。"an English doctor" だと「イギリス人の医者」という意味になってしまいます。「英語を話せる」と言うには必ず "-speaking" を加えましょう。日本人が混同しやすい表現です。
+      - body: "a doctor who can speak English"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>an English-speaking doctor</b> です。"a doctor who can speak English" も正しい英語ですが、複合形容詞 "English-speaking" の方がより簡潔で自然です。TOEICではこの複合形容詞が頻出します。
+  - step_number: 8
     body: "「近くに英語を話せる医者がいる病院はありますか？」を英語で言うと？"
     choices:
       - body: "Is there a hospital nearby with an English-speaking doctor?"
         is_correct: true
         feedback: |-
-          正解！<br>"Is there 〜 nearby?" で「近くに〜はありますか？」という場所を尋ねる構文です。"with an English-speaking doctor" を後置することで条件を自然に追加できます。
-      - body: "Where is the nearest hospital with English service?"
+          正解！<b>Is there a hospital nearby with an English-speaking doctor?</b> "Is there 〜 nearby?" は「近くに〜はありますか？」の便利な構文。"hospital" を "pharmacy"（薬局）や "clinic"（クリニック）に変えてアレンジできます。
+      - body: "Where is the nearest hospital with an English doctor?"
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>Is there a hospital nearby with an English-speaking doctor?</b> です。
-      - body: "Can you find me a hospital where doctors speak English?"
+          惜しい！正解は <b>Is there a hospital nearby with an English-speaking doctor?</b> です。"English doctor" は「イギリス人の医者」という意味になります。「英語を話せる」には必ず "English-speaking" を使いましょう。
+      - body: "Can you find me a hospital with English service?"
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>Is there a hospital nearby with an English-speaking doctor?</b> です。
-  - step_number: 12
-    body: "今回のフレーズをもう一度確認しましょう。<br>「近くに英語を話せる医者がいる病院はありますか？」"
+          惜しい！正解は <b>Is there a hospital nearby with an English-speaking doctor?</b> です。"English service" は日本語的な発想による不自然な表現。"English-speaking doctor" と具体的に言うのが正確です。
+  - step_number: 9
+    body: "「近くに英語を話せる医者がいる病院はありますか？」を英語で言うと？"
     choices:
       - body: "Is there a hospital nearby with an English-speaking doctor?"
         is_correct: true
         feedback: |-
-          "Is there 〜 nearby?" は「近くに〜はありますか？」の便利な構文。"hospital" を "pharmacy"（薬局）や "clinic"（クリニック）に変えるだけで様々な場面に応用できます。
-  - step_number: 13
+          正解！"Is there〜?" は存在を尋ねる基本構文。"Is there a pharmacy nearby?"（近くに薬局はありますか？）のように "hospital" を入れ替えるだけで様々な場面に応用できます。
+      - body: "Is there any hospital near here that speaks English?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Is there a hospital nearby with an English-speaking doctor?</b> です。"hospital that speaks English" は不自然。英語を話すのは医師なので "with an English-speaking doctor" と明記するのが正確です。
+      - body: "Do you know a hospital close to here with English-speaking staff?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Is there a hospital nearby with an English-speaking doctor?</b> です。"staff" より "doctor" を指定する方が医療現場では重要です。また "Do you know〜?" より "Is there〜?" の方が端的な聞き方です。
+  - step_number: 10
     body: "「保険」を英語で言うと？"
     choices:
       - body: "insurance"
         is_correct: true
         feedback: |-
-          正解！「保険」は <b>insurance</b> です。"travel insurance"（旅行保険）・"health insurance"（健康保険）のように種類を前に置いて使います。
+          正解！「保険」は <b>insurance</b> です。"travel insurance"（旅行保険）・"health insurance"（健康保険）のように種類を前に置いて使います。海外の医療機関では受付で最初に保険の有無を聞かれます。
       - body: "assurance"
         is_correct: false
         feedback: |-
-          惜しい！「保険」は <b>insurance</b> です。"assurance" は主に生命保険や保証を指す英国英語表現です。
+          惜しい！「（損害・旅行）保険」は <b>insurance</b> です。"assurance" は主に生命保険を指す英国英語。日常的な旅行保険には "insurance" を使いましょう。
       - body: "coverage"
         is_correct: false
         feedback: |-
-          惜しい！「保険」は <b>insurance</b> です。"coverage" は「補償範囲・カバー範囲」という意味で、保険の話題でも使いますが単独では「保険」を指しません。
-  - step_number: 14
+          惜しい！「保険（の加入）」は <b>insurance</b> です。"coverage" は「補償範囲」という意味で、保険の話題で使いますが保険そのものを指しません。TOEICでも "insurance" と "coverage" は別概念として出題されます。
+  - step_number: 11
     body: "「旅行保険に加入しています」を英語で言うと？"
     choices:
       - body: "I have travel insurance."
         is_correct: true
         feedback: |-
-          正解！「旅行保険に加入しています」は <b>I have travel insurance.</b> です。"have" は所持だけでなく「〜に加入している」という状態も表します。シンプルで最も伝わりやすい表現です。
+          正解！<b>I have travel insurance.</b> "have" は所持だけでなく「〜に加入している」という状態も表します。海外医療費は非常に高額になることがあるため、旅行保険は必須の備えです。
       - body: "I've got an insurance policy."
         is_correct: false
         feedback: |-
-          惜しい！「旅行保険に加入しています」は <b>I have travel insurance.</b> です。
-      - body: "I'm covered by insurance."
+          惜しい！正解は <b>I have travel insurance.</b> です。"I've got an insurance policy" は "travel"（旅行）という重要情報が欠けています。医療機関では旅行保険と健康保険を区別して確認するので "travel" を明示しましょう。
+      - body: "I am insured."
         is_correct: false
         feedback: |-
-          惜しい！「旅行保険に加入しています」は <b>I have travel insurance.</b> です。
-  - step_number: 15
+          惜しい！正解は <b>I have travel insurance.</b> です。"I am insured" は文法的に正しいですが、何の保険かが不明です。旅行中は "travel insurance" と明示することが大切です。
+  - step_number: 12
     body: "「旅行保険に加入しています。」を英語で言うと？"
     choices:
       - body: "I have travel insurance."
         is_correct: true
         feedback: |-
-          正解！<br>海外の医療機関では保険の有無を最初に確認されることが多いです。"I have travel insurance." と伝えるだけで、その後の手続きがスムーズになります。
-      - body: "I bought insurance before my trip."
+          正解！<b>I have travel insurance.</b> 保険証書を見せながら "Here is my insurance card."（これが保険証です）と組み合わせると完璧。海外の医療機関では受付で保険証書を求められることが多いです。
+      - body: "My travel insurance will pay for this."
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>I have travel insurance.</b> です。
-      - body: "My insurance will cover the costs."
+          惜しい！正解は <b>I have travel insurance.</b> です。"will pay for this" は補償の詳細な話になってしまいます。まず保険加入の有無を伝える最初の一言として "I have travel insurance." を使いましょう。
+      - body: "I bought travel insurance before my trip."
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>I have travel insurance.</b> です。
-  - step_number: 16
-    body: "今回のフレーズをもう一度確認しましょう。<br>「旅行保険に加入しています。」"
+          惜しい！正解は <b>I have travel insurance.</b> です。"I bought〜" は購入の事実ですが、現在加入中であることを伝えるには現在形 "I have〜" がより自然です。
+  - step_number: 13
+    body: "「処方箋」を英語で言うと？"
     choices:
-      - body: "I have travel insurance."
+      - body: "prescription"
         is_correct: true
         feedback: |-
-          保険証書を見せながら "Here is my insurance card."（これが保険証です）と一緒に使えると完璧です。"travel insurance" は海外では必須の備えです。
-  - step_number: 17
+          正解！「処方箋」は <b>prescription</b> です。"Could I have a prescription?"（処方箋をいただけますか？）が定番表現。処方箋不要の市販薬は "over-the-counter medicine"（OTC薬）といいます。
+      - body: "description"
+        is_correct: false
+        feedback: |-
+          惜しい！「処方箋」は <b>prescription</b> です。"description" は「説明・記述」のこと。スペルが似ており日本人が混同しやすいですが、"pre-"（事前）と "de-"（説明）で意味が全く異なります。
+      - body: "medication"
+        is_correct: false
+        feedback: |-
+          惜しい！「処方箋」は <b>prescription</b> です。"medication" は「薬・投薬」という意味で処方箋そのものではありません。"prescription medication"（処方薬）という組み合わせで使うこともあります。
+  - step_number: 14
+    body: "「処方箋をいただけますか？」を英語で言うと？"
+    choices:
+      - body: "Could I have a prescription, please?"
+        is_correct: true
+        feedback: |-
+          正解！<b>Could I have a prescription, please?</b> "Could I have〜?" は丁寧なお願いの定番表現で、"Can I have〜?" より改まったニュアンスがあります。医師・薬剤師への依頼に最適です。
+      - body: "Can you write me some medicine?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Could I have a prescription, please?</b> です。"write me some medicine" は英語として不自然です。「処方箋を書いてもらう」と言いたい場合は "write a prescription" と表現します。
+      - body: "Please give me some drugs."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Could I have a prescription, please?</b> です。"drugs" は違法薬物のニュアンスが強く、医療現場では "medication" や "medicine" を使います。TOEICでも "drugs" vs "medication" の使い分けは頻出の注意ポイントです。
+  - step_number: 15
+    body: "「処方箋をいただけますか？」を英語で言うと？"
+    choices:
+      - body: "Could I have a prescription, please?"
+        is_correct: true
+        feedback: |-
+          正解！<b>Could I have a prescription, please?</b> "Could I have〜?" は汎用的な依頼表現。"Could I have a receipt?"（領収書をください）・"Could I have a glass of water?"（水をください）のように応用できます。
+      - body: "Would you prescribe me something?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Could I have a prescription, please?</b> です。"something" が漠然としています。処方箋（prescription）という具体的な名詞を使った表現を覚えましょう。
+      - body: "I need a prescription for this."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Could I have a prescription, please?</b> です。"I need〜" は「〜が必要だ」という状態の表現で、お願いにはなっていません。依頼するときは "Could I have〜?" を使いましょう。
+  - step_number: 16
     body: "「救急車」を英語で言うと？"
     choices:
       - body: "ambulance"
         is_correct: true
         feedback: |-
-          正解！「救急車」は <b>ambulance</b> です。緊急時に真っ先に使える単語のひとつ。発音は「アンビュランス」です。
+          正解！「救急車」は <b>ambulance</b> です。緊急時に真っ先に使う単語。発音は「アンビュランス」。海外の緊急番号は国によって異なります（米国：911、英国：999）。
       - body: "emergency car"
         is_correct: false
         feedback: |-
-          惜しい！「救急車」は <b>ambulance</b> です。"emergency car" という表現は英語では使いません。
-      - body: "rescue vehicle"
+          惜しい！「救急車」は <b>ambulance</b> です。"emergency car" は日本語の直訳的な和製英語で、英語では使いません。緊急車両は "emergency vehicle" とも言いますが、救急車特有の単語は "ambulance" です。
+      - body: "first aid truck"
         is_correct: false
         feedback: |-
-          惜しい！「救急車」は <b>ambulance</b> です。"rescue vehicle" は意味は通じますが、日常では使いません。
-  - step_number: 18
+          惜しい！「救急車」は <b>ambulance</b> です。"first aid"（応急処置）を組み合わせた表現ですが、救急車を指す単語は "ambulance" です。"first aid kit"（救急箱）は別の文脈で使います。
+  - step_number: 17
     body: "「救急車を呼んでください」を英語で言うと？"
     choices:
       - body: "Please call an ambulance."
         is_correct: true
         feedback: |-
-          正解！「救急車を呼んでください」は <b>Please call an ambulance.</b> です。"Please call 〜" は「〜を呼んでください」という丁寧な依頼表現。緊急時にはより短く "Call an ambulance!" とも言えます。
+          正解！<b>Please call an ambulance.</b> "Please call 〜" は「〜を呼んでください」という丁寧な依頼表現。緊急時にはより短く "Call an ambulance!" とも言えます。
       - body: "I need emergency help."
         is_correct: false
         feedback: |-
-          惜しい！「救急車を呼んでください」は <b>Please call an ambulance.</b> です。
-      - body: "Get me to a hospital!"
+          惜しい！正解は <b>Please call an ambulance.</b> です。"I need emergency help" は助けを求めていますが、救急車を呼ぶよう具体的に依頼していません。緊急時は "ambulance" という具体的な言葉で明確に伝えましょう。
+      - body: "Take me to the hospital!"
         is_correct: false
         feedback: |-
-          惜しい！「救急車を呼んでください」は <b>Please call an ambulance.</b> です。
-  - step_number: 19
+          惜しい！正解は <b>Please call an ambulance.</b> です。"Take me to the hospital!" は「病院に連れて行って」という意味で、救急車を呼ぶ依頼とは異なります。動けない状況では "Please call an ambulance." が重要です。
+  - step_number: 18
     body: "「救急車を呼んでください。」を英語で言うと？"
     choices:
       - body: "Please call an ambulance."
         is_correct: true
         feedback: |-
-          正解！<br>緊急時は "Call an ambulance!" と "Please" を省いても問題ありません。状況の深刻さに応じて使い分けましょう。海外の緊急番号（米国は911、英国は999）も覚えておくと安心です。
-      - body: "Please send emergency services."
+          正解！<b>Please call an ambulance.</b> "Please call〜" は緊急時に応用が効く構文。"Please call a doctor."（医者を呼んでください）・"Please call the front desk."（フロントを呼んでください）のように使えます。
+      - body: "Please send an emergency vehicle to help me."
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>Please call an ambulance.</b> です。
-      - body: "I need you to call for help."
+          惜しい！正解は <b>Please call an ambulance.</b> です。"emergency vehicle" は緊急車両の総称。"ambulance" と特定することで素早い対応が期待できます。
+      - body: "I need you to get help right now."
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>Please call an ambulance.</b> です。
-  - step_number: 20
-    body: "今回のフレーズをもう一度確認しましょう。<br>「救急車を呼んでください。」"
+          惜しい！正解は <b>Please call an ambulance.</b> です。"get help" は漠然としており、何をすべきかが伝わりません。緊急時は "ambulance" と具体的に伝えることが命に関わります。
+  - step_number: 19
+    body: "「アレルギーがある」を表す英語は？"
     choices:
-      - body: "Please call an ambulance."
+      - body: "allergic"
         is_correct: true
         feedback: |-
-          "Please call 〜" は緊急時の依頼に使える構文です。"Please call a doctor."（医者を呼んでください）・"Please call the front desk."（フロントを呼んでください）のように応用できます。
+          正解！「〜アレルギーがある」は形容詞 <b>allergic</b> を使い、"I'm allergic to penicillin."（ペニシリンアレルギーがあります）のように表現します。名詞形は "allergy"（I have a penicillin allergy.）です。
+      - body: "sensitive"
+        is_correct: false
+        feedback: |-
+          惜しい！医療的なアレルギーを伝えるには <b>allergic</b> が正解です。"sensitive to" は「〜に敏感」というニュアンスで、免疫反応を伴うアレルギーとは医学的に異なります。
+      - body: "intolerant"
+        is_correct: false
+        feedback: |-
+          惜しい！免疫によるアレルギーには <b>allergic</b> が正解です。"intolerant" は "lactose intolerant"（乳糖不耐症）のように消化系の不耐性を指し、アレルギーとは別概念です。医療現場では正確な表現が重要です。
+  - step_number: 20
+    body: "「ペニシリンアレルギーがあります」を英語で言うと？"
+    choices:
+      - body: "I'm allergic to penicillin."
+        is_correct: true
+        feedback: |-
+          正解！<b>I'm allergic to penicillin.</b> 海外の医療機関では必ずアレルギーの有無を確認されます。自分のアレルゲン（"aspirin" アスピリン・"shellfish" 甲殻類など）を英語で言えるよう準備しておきましょう。
+      - body: "I can't take penicillin."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I'm allergic to penicillin.</b> です。"I can't take penicillin" は「服用できない」という事実を伝えますが、アレルギーが理由だとわかりません。医師に正確に伝えるため "allergic" という言葉を使いましょう。
+      - body: "Penicillin doesn't work for me."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I'm allergic to penicillin.</b> です。"doesn't work for me" は「効かない・体に合わない」という意味で、アレルギーとは全く異なります。アレルギーは命に関わる場合があるため "I'm allergic to〜" で明確に伝えましょう。
+  - step_number: 21
+    body: "「ペニシリンアレルギーがあります。」を英語で言うと？"
+    choices:
+      - body: "I'm allergic to penicillin."
+        is_correct: true
+        feedback: |-
+          正解！<b>I'm allergic to penicillin.</b> "I'm allergic to〜" は海外でとても重要な表現です。"I'm allergic to nuts."（ナッツアレルギー）・"I'm allergic to cats."（猫アレルギー）のように応用できます。
+      - body: "I have a reaction when I take penicillin."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I'm allergic to penicillin.</b> です。"have a reaction" は反応があることを示しますが、アレルギーかどうかが明確ではありません。"I'm allergic to〜" でアレルギーであることを直接伝えましょう。
+      - body: "Penicillin is not suitable for me."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I'm allergic to penicillin.</b> です。"not suitable for me" は「自分に合わない」という意味で、アレルギーを意味しません。医療上重要な情報を正確に伝えるため "I'm allergic to〜" を使いましょう。

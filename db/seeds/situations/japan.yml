@@ -1,266 +1,322 @@
 slug: "japan"
+cefr: "b2"
 title: "海外で日本のことを聞かれた時に使える英会話"
-overview: "海外で日本の文化や習慣について聞かれたときに使える英会話を学びます。"
-scenario: "海外旅行中に現地の人と話す機会があり、日本の四季・食文化・習慣・観光地などについて質問されました。英語で日本のことを紹介してみましょう。"
+overview: "海外旅行や交流の場で「日本ってどんな国？」と聞かれたとき、文化・食・観光・歴史について自信を持って英語で説明するための表現を学びます。"
+scenario: "旅行先で出会った外国人から「日本ってどんな国ですか？」と聞かれました。おすすめの場所や食文化、日本ならではの習慣について英語で紹介してみましょう。"
 thumbnail: "top/situation_thum_japan.png"
 steps:
   - step_number: 1
-    body: "「はっきりした・뚜렷한」を英語で言うと？"
+    body: "「〜を強くおすすめする」を英語で言うと？"
+    choices:
+      - body: "highly recommend"
+        is_correct: true
+        feedback: |-
+          正解！「〜を強くおすすめする」は <b>highly recommend</b> です。"I highly recommend visiting Kyoto."（京都を強くおすすめします）が定番表現。"strongly recommend" も同じ意味で使えます。
+      - body: "strongly suggest"
+        is_correct: false
+        feedback: |-
+          惜しい！「〜を強くおすすめする」は <b>highly recommend</b> が最も自然です。"strongly suggest" も意味は近いですが、観光案内・旅行の文脈では "recommend" の方が頻繁に使われます。
+      - body: "very advise"
+        is_correct: false
+        feedback: |-
+          惜しい！「〜を強くおすすめする」は <b>highly recommend</b> です。"very advise" という表現は英語として不自然です。"advise" を強調するには "strongly advise" と言いますが、おすすめの文脈では "recommend" が適切です。日本人が副詞の使い方で間違えやすいパターンです。
+  - step_number: 2
+    body: "「京都を訪れることを強くおすすめします」を英語で言うと？"
+    choices:
+      - body: "I highly recommend visiting Kyoto."
+        is_correct: true
+        feedback: |-
+          正解！<b>I highly recommend visiting Kyoto.</b> "recommend＋動名詞（〜ing）" が正しい構文です。"recommend to visit" は文法的に誤りなので注意。TOEICの文法問題でも "recommend＋動名詞" vs "recommend＋to不定詞" は頻出のトラップです。
+      - body: "I highly recommend to visit Kyoto."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I highly recommend visiting Kyoto.</b> です。"recommend" の後には "to不定詞" ではなく "動名詞（〜ing）" が来ます。"recommend visiting"（動名詞）が正しい形。TOEICで最も多く出る文法ミスのひとつです。
+      - body: "I strongly propose you go to Kyoto."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I highly recommend visiting Kyoto.</b> です。"propose" は「提案する・プロポーズする」という意味で、観光案内では "recommend" が自然です。また "highly recommend" と "strongly recommend" のどちらかを覚えましょう。
+  - step_number: 3
+    body: "「京都を訪れることを強くおすすめします。」を英語で言うと？"
+    choices:
+      - body: "I highly recommend visiting Kyoto."
+        is_correct: true
+        feedback: |-
+          正解！<b>I highly recommend visiting Kyoto.</b> "recommend＋動名詞" を確認。"I highly recommend trying Japanese ramen."（日本のラーメンを食べてみることをおすすめします）のように応用できます。
+      - body: "I recommend you to visit Kyoto."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I highly recommend visiting Kyoto.</b> です。"recommend you to visit" は文法的に誤りです。"recommend that you visit"（that節）や "recommend visiting"（動名詞）が正しい形です。日本人が最も間違えやすい文法ポイントです。
+      - body: "Kyoto is a place that I recommend you should visit."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I highly recommend visiting Kyoto.</b> です。意味は通じますが非常に冗長です。会話では "I highly recommend visiting〜" のシンプルな表現が自然です。
+  - step_number: 4
+    body: "「伝統的な」を英語で言うと？"
+    choices:
+      - body: "traditional"
+        is_correct: true
+        feedback: |-
+          正解！「伝統的な」は <b>traditional</b> です。"traditional Japanese food"（伝統的な日本食）・"traditional culture"（伝統文化）のように使います。"customary"（慣習的な）も似た意味ですが、"traditional" の方が一般的です。
+      - body: "historical"
+        is_correct: false
+        feedback: |-
+          惜しい！「伝統的な」は <b>traditional</b> です。"historical" は「歴史的な・歴史上の」という意味。「伝統的」と「歴史的」は混同しやすいですが、文化の継承を表すには "traditional" が適切です。
+      - body: "classical"
+        is_correct: false
+        feedback: |-
+          惜しい！「伝統的な」は <b>traditional</b> です。"classical" は「古典的な」という意味で、音楽（classical music）や建築で使います。日本文化全般を形容するには "traditional" が最も広く使える言葉です。
+  - step_number: 5
+    body: "「寿司は伝統的な日本料理です」を英語で言うと？"
+    choices:
+      - body: "Sushi is a traditional Japanese dish."
+        is_correct: true
+        feedback: |-
+          正解！<b>Sushi is a traditional Japanese dish.</b> "dish" は「料理・一品」という意味。"food" も使えますが "dish" の方が特定の料理を指す場合により自然です。"a traditional Japanese dish" の語順（評価→国籍→種類）も覚えておきましょう。
+      - body: "Sushi is a Japan traditional food."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Sushi is a traditional Japanese dish.</b> です。形容詞の語順に注意。"Japan"（名詞）ではなく "Japanese"（形容詞）を使い、"traditional Japanese dish"（伝統的な日本の料理）の順番が正しいです。日本人が語順で間違えやすいパターンです。
+      - body: "Sushi is Japan's traditional cuisine."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Sushi is a traditional Japanese dish.</b> です。"Japan's traditional cuisine" は文法的に正しいですが、"cuisine" はやや格式張った表現です。会話では "traditional Japanese dish" の方が自然で使いやすいです。
+  - step_number: 6
+    body: "「寿司は伝統的な日本料理です。」を英語で言うと？"
+    choices:
+      - body: "Sushi is a traditional Japanese dish."
+        is_correct: true
+        feedback: |-
+          正解！<b>Sushi is a traditional Japanese dish.</b> 日本食について話す場面では "Ramen is a popular Japanese noodle dish."（ラーメンは人気の日本の麺料理です）・"Tempura is a deep-fried Japanese dish."（天ぷらは揚げ物の日本料理です）のように応用できます。
+      - body: "Sushi is a famous food from Japan."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Sushi is a traditional Japanese dish.</b> です。"famous food from Japan" は間違いではありませんが、"traditional"（伝統的な）という重要なニュアンスが失われます。寿司の文化的背景を伝えるには "traditional" を使いましょう。
+      - body: "Sushi is a typical dish of Japanese people."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Sushi is a traditional Japanese dish.</b> です。"a dish of Japanese people" は不自然な表現です。国の料理を説明するときは "Japanese dish"（形容詞＋名詞）のシンプルな構造が最も自然です。
+  - step_number: 7
+    body: "「世界中で」を英語で言うと？"
+    choices:
+      - body: "worldwide"
+        is_correct: true
+        feedback: |-
+          正解！「世界中で」は <b>worldwide</b> です。"Anime is popular worldwide."（アニメは世界中で人気です）のように文末に置いて使います。"all over the world"・"around the world" も同じ意味で使えます。
+      - body: "worldly"
+        is_correct: false
+        feedback: |-
+          惜しい！「世界中で」は <b>worldwide</b> です。"worldly" は「この世の・世俗的な」という意味で全く異なります。"worldwide" と "worldly" はスペルが似ており日本人が混同しやすいですが、意味は全く異なります。
+      - body: "internationally"
+        is_correct: false
+        feedback: |-
+          惜しい！「世界中で」は <b>worldwide</b> です。"internationally" は「国際的に」という意味でよく使いますが、"worldwide" の方が「全世界に広まっている」という強いニュアンスを出せます。
+  - step_number: 8
+    body: "「アニメと漫画は世界中でファンがいます」を英語で言うと？"
+    choices:
+      - body: "Anime and manga have fans worldwide."
+        is_correct: true
+        feedback: |-
+          正解！<b>Anime and manga have fans worldwide.</b> "have fans worldwide" は「世界中にファンがいる」という自然な表現。"are popular worldwide"（世界中で人気）と合わせて覚えておきましょう。
+      - body: "Anime and manga are famous in the world."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Anime and manga have fans worldwide.</b> です。"famous in the world" よりも "worldwide" の方が簡潔でネイティブらしい表現です。"in the world" は冗長に聞こえることがあります。
+      - body: "Anime and manga is loved by people all around the world."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Anime and manga have fans worldwide.</b> です。"Anime and manga is〜" は主語が複数（and でつながれた2つ）なので "are" が正しいです。主語と動詞の一致はTOEICでも頻出のポイントです。
+  - step_number: 9
+    body: "「アニメと漫画は世界中でファンがいます。」を英語で言うと？"
+    choices:
+      - body: "Anime and manga have fans worldwide."
+        is_correct: true
+        feedback: |-
+          正解！<b>Anime and manga have fans worldwide.</b> 日本のポップカルチャーについて話す場面では "Video games from Japan are enjoyed by people of all ages."（日本のゲームは全年齢層に楽しまれています）なども応用できます。
+      - body: "Anime and manga are very popular in every country."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Anime and manga have fans worldwide.</b> です。"in every country" は "worldwide" に比べて冗長です。また「全ての国で」は事実として誇張になる場合があります。"worldwide" の方が自然でシンプルです。
+      - body: "Anime and manga has become popular in recent years worldwide."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Anime and manga have fans worldwide.</b> です。"Anime and manga has〜" は主語が複数なので "have" が正しいです。主語・動詞の一致ミスは日本人に多い誤りです。
+  - step_number: 10
+    body: "「お辞儀」を英語で言うと？"
+    choices:
+      - body: "bowing"
+        is_correct: true
+        feedback: |-
+          正解！「お辞儀（すること）」は <b>bowing</b> です。動詞は "bow"（お辞儀をする）。"Bowing is a common greeting in Japan."（日本では挨拶としてお辞儀が一般的です）が定番表現。
+      - body: "nodding"
+        is_correct: false
+        feedback: |-
+          惜しい！「お辞儀」は <b>bowing</b> です。"nodding" は「うなずくこと」で首を軽く前に傾ける動作。"bowing" は上半身を前に折って礼をすること。日本語では区別しにくいですが、英語では別の動作です。
+      - body: "greeting"
+        is_correct: false
+        feedback: |-
+          惜しい！「お辞儀」は <b>bowing</b> です。"greeting" は「挨拶（すること）」という広い意味で、握手・ハグなども含みます。日本特有の動作を指す場合は "bowing" と特定しましょう。
+  - step_number: 11
+    body: "「日本ではお辞儀が挨拶の一般的な形です」を英語で言うと？"
+    choices:
+      - body: "Bowing is a common form of greeting in Japan."
+        is_correct: true
+        feedback: |-
+          正解！<b>Bowing is a common form of greeting in Japan.</b> 動名詞 "Bowing"（お辞儀すること）を主語に使うことで文化の説明がスムーズになります。"a common form of〜" は「〜の一般的な形」という便利な表現です。
+      - body: "In Japan, people are bowing as a hello."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Bowing is a common form of greeting in Japan.</b> です。"as a hello" は口語的すぎる表現です。文化の説明には "greeting" という正式な言葉を使いましょう。習慣を述べるので現在進行形ではなく現在形を使います。
+      - body: "Japanese people use bowing as greeting."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Bowing is a common form of greeting in Japan.</b> です。"as greeting" は冠詞が必要で "as a greeting" が正しいです。また "Bowing is〜" の構文の方が文化紹介として自然でシンプルです。
+  - step_number: 12
+    body: "「日本ではお辞儀が挨拶の一般的な形です。」を英語で言うと？"
+    choices:
+      - body: "Bowing is a common form of greeting in Japan."
+        is_correct: true
+        feedback: |-
+          正解！<b>Bowing is a common form of greeting in Japan.</b> "Unlike in Western countries, bowing is a common greeting in Japan."（西洋と違い、日本ではお辞儀が一般的な挨拶です）のように応用できます。
+      - body: "Bowing is how Japanese say hi to each other."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Bowing is a common form of greeting in Japan.</b> です。"say hi" は非常にカジュアルな表現です。文化の紹介には "greeting" という適切な語彙を使いましょう。
+      - body: "Japanese custom is that people bow when they meet."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Bowing is a common form of greeting in Japan.</b> です。"Japanese custom is that〜" は文法的に不自然（"A Japanese custom is that〜" が正しい）。動名詞 "Bowing" を主語にするシンプルな構造の方が自然です。
+  - step_number: 13
+    body: "「はっきりした・明確な」を英語で言うと？（四季の説明で使う）"
     choices:
       - body: "distinct"
         is_correct: true
         feedback: |-
-          正解！「はっきりした・뚜렷한」は <b>distinct</b> です。「他とはっきり区別できる・明確な」という意味です。"four distinct seasons" で「はっきりと分かれた四季」というニュアンスになります。
+          正解！「はっきりした・明確な」は <b>distinct</b> です。"four distinct seasons"（四季がはっきりしている）が定番表現。"distinct" は「他と明確に区別できる」というニュアンスを持ちます。TOEICでも頻出の語彙です。
       - body: "different"
         is_correct: false
         feedback: |-
-          惜しい！「はっきりした・明確な」は <b>distinct</b> です。"different" は「異なる」という意味で、「はっきり区別できる」という強調のニュアンスは "distinct" の方が強いです。
-      - body: "clear"
+          惜しい！四季の説明では <b>distinct</b> が最適です。"different" は「異なる」という意味で使えますが、"distinct" には「くっきり区別できる・際立った」というニュアンスがあります。"Japan has four different seasons" も通じますが "distinct" の方が適切です。
+      - body: "separate"
         is_correct: false
         feedback: |-
-          惜しい！「はっきりした・明確な」は <b>distinct</b> です。"clear" は「明確な・透明な」という意味で文脈が少し異なります。
-  - step_number: 2
-    body: "「日本には四季があります」を英語で言うと？"
-    choices:
-      - body: "Japan has four distinct seasons."
-        is_correct: true
-        feedback: |-
-          正解！「日本には四季があります」は <b>Japan has four distinct seasons.</b> です。"distinct" を加えることで「はっきりと分かれた四季」という日本の気候の特徴を強調できます。
-      - body: "Japan has four different seasons."
-        is_correct: false
-        feedback: |-
-          惜しい！「日本には四季があります」は <b>Japan has four distinct seasons.</b> です。"different" より "distinct" の方が「明確に区別できる」という意味が強く出ます。
-      - body: "In Japan, we have four seasons."
-        is_correct: false
-        feedback: |-
-          惜しい！「日本には四季があります」は <b>Japan has four distinct seasons.</b> です。
-  - step_number: 3
-    body: "「日本には四季があります。」を英語で言うと？"
-    choices:
-      - body: "Japan has four distinct seasons."
-        is_correct: true
-        feedback: |-
-          正解！<br>日本の四季は海外でも知られていますが、"distinct" を使って「はっきり分かれている」と説明すると、より具体的に伝わります。春の花見・夏の花火・秋の紅葉・冬の雪など例を加えると会話が広がります。
-      - body: "Japan experiences four seasons every year."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Japan has four distinct seasons.</b> です。
-      - body: "There are four seasons in Japan like other countries."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Japan has four distinct seasons.</b> です。
-  - step_number: 4
-    body: "今回のフレーズをもう一度確認しましょう。<br>「日本には四季があります。」"
-    choices:
-      - body: "Japan has four distinct seasons."
-        is_correct: true
-        feedback: |-
-          "distinct" は「他とはっきり区別できる」という意味の形容詞。日本の四季について話す際は、各季節の特徴（spring cherry blossoms / summer humidity / autumn foliage / winter snow）も英語で言えると会話が弾みます。
-  - step_number: 5
-    body: "「生の」を英語で言うと？"
-    choices:
-      - body: "raw"
-        is_correct: true
-        feedback: |-
-          正解！「生の」は <b>raw</b> です。加熱・加工されていない状態を指します。"raw fish"（生魚）・"raw vegetables"（生野菜）のように使います。
-      - body: "fresh"
-        is_correct: false
-        feedback: |-
-          惜しい！「生の」は <b>raw</b> です。"fresh" は「新鮮な」という意味で、加熱されているかどうかとは関係ありません。
-      - body: "uncooked"
-        is_correct: false
-        feedback: |-
-          惜しい！「生の」は <b>raw</b> です。"uncooked" も「火を通していない」という意味で使えますが、"raw" の方が一般的です。
-  - step_number: 6
-    body: "「寿司は酢飯の上に生魚をのせた料理です」を英語で言うと？"
-    choices:
-      - body: "Sushi is raw fish on seasoned rice."
-        is_correct: true
-        feedback: |-
-          正解！「寿司は酢飯の上に生魚をのせた料理です」は <b>Sushi is raw fish on seasoned rice.</b> です。"seasoned rice" は「味付けされた米」＝酢飯のこと。シンプルに本質を伝える説明です。
-      - body: "Sushi is fish with vinegar rice."
-        is_correct: false
-        feedback: |-
-          惜しい！「寿司は酢飯の上に生魚をのせた料理です」は <b>Sushi is raw fish on seasoned rice.</b> です。
-      - body: "Sushi means Japanese seafood dish."
-        is_correct: false
-        feedback: |-
-          惜しい！「寿司は酢飯の上に生魚をのせた料理です」は <b>Sushi is raw fish on seasoned rice.</b> です。
-  - step_number: 7
-    body: "「寿司は酢飯の上に生魚をのせた料理です。」を英語で言うと？"
-    choices:
-      - body: "Sushi is raw fish on seasoned rice."
-        is_correct: true
-        feedback: |-
-          正解！<br>"seasoned rice" は酢・砂糖・塩で味付けされた酢飯を指します。"raw fish" と聞いて驚く外国人もいますが、この説明がきっかけで寿司への興味を持ってもらえることも多いです。
-      - body: "Sushi is sliced fish placed on top of rice."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Sushi is raw fish on seasoned rice.</b> です。
-      - body: "Sushi is a Japanese dish made with seafood and rice."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Sushi is raw fish on seasoned rice.</b> です。
-  - step_number: 8
-    body: "今回のフレーズをもう一度確認しましょう。<br>「寿司は酢飯の上に生魚をのせた料理です。」"
-    choices:
-      - body: "Sushi is raw fish on seasoned rice."
-        is_correct: true
-        feedback: |-
-          "A is B" の形でシンプルに説明する構文は、文化紹介に便利です。"Ramen is noodles in a rich broth."・"Tempura is deep-fried seafood and vegetables." のように応用できます。
-  - step_number: 9
-    body: "「習慣・慣習」を英語で言うと？"
-    choices:
-      - body: "custom"
-        is_correct: true
-        feedback: |-
-          正解！「習慣・慣習」は <b>custom</b> です。文化的・社会的に根付いた行動様式を指します。"It's a custom in Japan to 〜" で「日本では〜するのが習慣です」という説明ができます。
-      - body: "habit"
-        is_correct: false
-        feedback: |-
-          惜しい！「習慣・慣習」は <b>custom</b> です。"habit" は個人の習慣を指すのに対し、"custom" は文化・集団全体の慣習を指します。
-      - body: "tradition"
-        is_correct: false
-        feedback: |-
-          惜しい！「習慣・慣習」は <b>custom</b> です。"tradition" は世代を超えて受け継がれる伝統を指します。
-  - step_number: 10
-    body: "「室内で靴を脱ぐのは日本の習慣です」を英語で言うと？"
-    choices:
-      - body: "Taking off your shoes indoors is a common custom in Japan."
-        is_correct: true
-        feedback: |-
-          正解！「室内で靴を脱ぐのは日本の習慣です」は <b>Taking off your shoes indoors is a common custom in Japan.</b> です。動名詞 "Taking off〜" を主語にすることで「〜すること」という行為を主語にできます。
-      - body: "In Japan, we always remove shoes inside."
-        is_correct: false
-        feedback: |-
-          惜しい！「室内で靴を脱ぐのは日本の習慣です」は <b>Taking off your shoes indoors is a common custom in Japan.</b> です。
-      - body: "Japanese people take off shoes when entering home."
-        is_correct: false
-        feedback: |-
-          惜しい！「室内で靴を脱ぐのは日本の習慣です」は <b>Taking off your shoes indoors is a common custom in Japan.</b> です。
-  - step_number: 11
-    body: "「室内で靴を脱ぐのは日本の一般的な習慣です。」を英語で言うと？"
-    choices:
-      - body: "Taking off your shoes indoors is a common custom in Japan."
-        is_correct: true
-        feedback: |-
-          正解！<br>動名詞（〜ing形）を主語にする構文は、習慣や行為を説明するときに便利です。"common" を加えることで「特別なことではなく一般的な習慣」というニュアンスが伝わります。
-      - body: "It is normal to take shoes off in Japanese homes."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Taking off your shoes indoors is a common custom in Japan.</b> です。
-      - body: "Shoes are not allowed inside Japanese houses."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Taking off your shoes indoors is a common custom in Japan.</b> です。
-  - step_number: 12
-    body: "今回のフレーズをもう一度確認しましょう。<br>「室内で靴を脱ぐのは日本の一般的な習慣です。」"
-    choices:
-      - body: "Taking off your shoes indoors is a common custom in Japan."
-        is_correct: true
-        feedback: |-
-          "Taking off 〜 is a custom in Japan." の構文を使えば、日本の様々な習慣を紹介できます。"Bowing is a common custom in Japan."（お辞儀は日本の一般的な習慣です）のように応用できます。
-  - step_number: 13
-    body: "「最も高い」を英語で言うと？"
-    choices:
-      - body: "the highest"
-        is_correct: true
-        feedback: |-
-          正解！「最も高い」は <b>the highest</b> です。"high" の最上級で、必ず定冠詞 "the" を伴います。高さには "high/highest" を使い、背の高さには "tall/tallest" を使います。
-      - body: "the tallest"
-        is_correct: false
-        feedback: |-
-          惜しい！「最も高い（標高）」は <b>the highest</b> です。"tallest" は人や建物など細長いものの高さに使います。山の標高には "highest" が適切です。
-      - body: "the biggest"
-        is_correct: false
-        feedback: |-
-          惜しい！「最も高い」は <b>the highest</b> です。"biggest" は「最も大きい」という意味です。
+          惜しい！四季の説明では <b>distinct</b> が正解です。"separate" は「別々の・分離した」という意味で、"four distinct seasons" の文脈では不自然です。"distinct" は「特徴がはっきりしている」という意味を含む点が重要です。
   - step_number: 14
-    body: "「富士山は日本で最も高い山です」を英語で言うと？"
+    body: "「日本には四季がはっきりしています」を英語で言うと？"
     choices:
-      - body: "Mount Fuji is the highest mountain in Japan."
+      - body: "Japan has four distinct seasons."
         is_correct: true
         feedback: |-
-          正解！「富士山は日本で最も高い山です」は <b>Mount Fuji is the highest mountain in Japan.</b> です。山の名前の前には "Mount" または "Mt." をつけます。最上級は "the＋形容詞の最上級＋名詞" の語順です。
-      - body: "Fuji Mountain is the most high in Japan."
+          正解！<b>Japan has four distinct seasons.</b> 日本の自然について説明する際の定番フレーズ。"Each season has its own beauty."（各季節にそれぞれの美しさがあります）と続けると会話が広がります。
+      - body: "Japan has four different weathers."
         is_correct: false
         feedback: |-
-          惜しい！「富士山は日本で最も高い山です」は <b>Mount Fuji is the highest mountain in Japan.</b> です。"most high" は不自然で "highest" が正しい最上級です。
-      - body: "Mt. Fuji has the highest altitude in Japan."
+          惜しい！正解は <b>Japan has four distinct seasons.</b> です。"weather" は不可算名詞なので "four weathers" は文法的に誤りです。また "seasons"（季節）と "weather"（天気）は別の概念です。日本人が混同しやすいポイントです。
+      - body: "In Japan, there are four season all year round."
         is_correct: false
         feedback: |-
-          惜しい！「富士山は日本で最も高い山です」は <b>Mount Fuji is the highest mountain in Japan.</b> です。
+          惜しい！正解は <b>Japan has four distinct seasons.</b> です。"four season" は "four seasons" と複数形にする必要があります。また "all year round" は「一年中ずっと」という意味で、四季がある事実の説明に使うと矛盾します。
   - step_number: 15
-    body: "「富士山は日本で最も高い山です。」を英語で言うと？"
+    body: "「日本には四季がはっきりしています。」を英語で言うと？"
     choices:
-      - body: "Mount Fuji is the highest mountain in Japan."
+      - body: "Japan has four distinct seasons."
         is_correct: true
         feedback: |-
-          正解！<br>富士山の標高は3,776メートル。"It stands at 3,776 meters."（標高3,776メートルです）と数字を添えると、より具体的に伝わります。海外では富士山への関心が非常に高く、会話のきっかけになります。
-      - body: "Japan's tallest peak is Mount Fuji."
+          正解！<b>Japan has four distinct seasons.</b> 四季を話す際、"cherry blossoms in spring"（春の桜）・"fireworks in summer"（夏の花火）・"autumn leaves in fall"（秋の紅葉）・"snow in winter"（冬の雪）などのキーワードも合わせて覚えましょう。
+      - body: "Japan experiences four clearly defined seasons throughout the year."
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>Mount Fuji is the highest mountain in Japan.</b> です。
-      - body: "Mount Fuji is a very famous high mountain."
+          惜しい！正解は <b>Japan has four distinct seasons.</b> です。内容は正しいですが非常に冗長です。"clearly defined" を "distinct" 一語で表現できるのが英語の魅力です。シンプルな表現を優先しましょう。
+      - body: "There are spring, summer, fall, and winter in Japan."
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>Mount Fuji is the highest mountain in Japan.</b> です。
+          惜しい！正解は <b>Japan has four distinct seasons.</b> です。意味は通じますが、"distinct"（はっきりした）というニュアンスが失われます。日本の四季の特徴（それぞれの季節がくっきり区別できる）を伝えるには "four distinct seasons" が適切です。
   - step_number: 16
-    body: "今回のフレーズをもう一度確認しましょう。<br>「富士山は日本で最も高い山です。」"
+    body: "「新幹線」を英語で言うと？"
     choices:
-      - body: "Mount Fuji is the highest mountain in Japan."
+      - body: "bullet train"
         is_correct: true
         feedback: |-
-          "the highest 〜 in Japan" の構文は「日本で最も〜な…」と紹介するときに使えます。"Tokyo is the largest city in Japan."（東京は日本最大の都市です）のように応用できます。
+          正解！「新幹線」は <b>bullet train</b> です。弾丸（bullet）のような速さから来た表現。正式名称は "Shinkansen" ですが、英語では "bullet train" が広く通じます。"high-speed train" とも言えます。
+      - body: "express train"
+        is_correct: false
+        feedback: |-
+          惜しい！「新幹線」は <b>bullet train</b> です。"express train" は「急行電車」のことで、新幹線より低速の列車を指します。新幹線の速さと特別さを伝えるには "bullet train" または "Shinkansen" を使いましょう。
+      - body: "speed train"
+        is_correct: false
+        feedback: |-
+          惜しい！「新幹線」は <b>bullet train</b> です。"speed train" は英語として不自然な和製英語的表現です。高速列車を表す正しい表現は "high-speed train" または "bullet train" です。
   - step_number: 17
-    body: "「時間に正確な」を英語で言うと？"
+    body: "「日本には新幹線という高速列車があります」を英語で言うと？"
     choices:
-      - body: "punctual"
+      - body: "Japan has a high-speed train called the Shinkansen."
         is_correct: true
         feedback: |-
-          正解！「時間に正確な」は <b>punctual</b> です。約束の時間・スケジュールをきちんと守ることを表します。日本の電車の定時運行は世界的に有名で、この単語と一緒によく紹介されます。
-      - body: "accurate"
+          正解！<b>Japan has a high-speed train called the Shinkansen.</b> "called〜" は「〜と呼ばれる」という意味の便利な表現。"〜 called the Shinkansen, or bullet train."（新幹線、つまり弾丸列車）と補足すると外国人により伝わりやすいです。
+      - body: "Japan has the Shinkansen which is a very fast train."
         is_correct: false
         feedback: |-
-          惜しい！「時間に正確な」は <b>punctual</b> です。"accurate" は「正確な・精密な」という意味で、数値や情報の正確さを指します。
-      - body: "precise"
+          惜しい！正解は <b>Japan has a high-speed train called the Shinkansen.</b> です。文法的には正しいですが "very fast" は漠然とした表現。"high-speed"（高速の）という具体的な形容詞を使い、"called〜" で名前を紹介する構造が自然です。
+      - body: "In Japan, there is a train named Shinkansen that goes very fast."
         is_correct: false
         feedback: |-
-          惜しい！「時間に正確な」は <b>punctual</b> です。"precise" は「細かく正確な」という意味で、測定や表現の精密さを指します。
+          惜しい！正解は <b>Japan has a high-speed train called the Shinkansen.</b> です。意味は通じますが非常に冗長です。"high-speed train called the Shinkansen" の方がコンパクトで洗練された表現です。
   - step_number: 18
-    body: "「日本は時間に正確な公共交通機関で知られています」を英語で言うと？"
+    body: "「日本には新幹線という高速列車があります。」を英語で言うと？"
     choices:
-      - body: "Japan is known for its punctual public transportation."
+      - body: "Japan has a high-speed train called the Shinkansen."
         is_correct: true
         feedback: |-
-          正解！「日本は時間に正確な公共交通機関で知られています」は <b>Japan is known for its punctual public transportation.</b> です。"be known for 〜" は「〜で知られている」という定番表現です。
-      - body: "Japan has very accurate trains and buses."
+          正解！<b>Japan has a high-speed train called the Shinkansen.</b> "called〜" は固有名詞を紹介する便利な表現。"Japan has a traditional theater called Kabuki."（日本には歌舞伎という伝統芸能があります）のように応用できます。
+      - body: "Japan is famous for Shinkansen, a bullet train."
         is_correct: false
         feedback: |-
-          惜しい！「日本は時間に正確な公共交通機関で知られています」は <b>Japan is known for its punctual public transportation.</b> です。
-      - body: "Japanese trains are always on time."
+          惜しい！正解は <b>Japan has a high-speed train called the Shinkansen.</b> です。"is famous for〜" も正しい表現ですが、"high-speed train"（高速列車）という説明が先にくる方が、知らない外国人に伝わりやすい構造です。
+      - body: "The Shinkansen is Japan's fastest transportation method."
         is_correct: false
         feedback: |-
-          惜しい！「日本は時間に正確な公共交通機関で知られています」は <b>Japan is known for its punctual public transportation.</b> です。
+          惜しい！正解は <b>Japan has a high-speed train called the Shinkansen.</b> です。"fastest transportation method" は内容として正しいですが、相手が "Shinkansen" を知らない前提で説明する場合は "a high-speed train called the Shinkansen" のように紹介する構造が親切です。
   - step_number: 19
-    body: "「日本は時間に正確な公共交通機関で知られています。」を英語で言うと？"
+    body: "「安全な」を英語で言うと？（国の治安の説明で使う）"
     choices:
-      - body: "Japan is known for its punctual public transportation."
+      - body: "safe"
         is_correct: true
         feedback: |-
-          正解！<br>"be known for 〜" は「〜で有名・知られている」という表現。"its" は Japan を指す代名詞です。日本の鉄道は1分以内の遅延率が世界最高水準で、外国人にとって驚きのポイントです。
-      - body: "Japan is famous for trains that come on time."
+          正解！「安全な」は <b>safe</b> です。"Japan is one of the safest countries in the world."（日本は世界で最も安全な国のひとつです）が定番表現。"safety"（名詞：安全）・"safely"（副詞：安全に）と合わせて覚えましょう。
+      - body: "secure"
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>Japan is known for its punctual public transportation.</b> です。
-      - body: "Public transport in Japan is very reliable and fast."
+          惜しい！治安の文脈では <b>safe</b> が最も自然です。"secure" は「セキュリティ・安心感・固定されている」というニュアンスで、建物や施設のセキュリティ体制を指す場合が多いです。国の治安には "safe" を使いましょう。
+      - body: "protected"
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>Japan is known for its punctual public transportation.</b> です。
+          惜しい！「安全な（治安の良い）」は <b>safe</b> です。"protected" は「保護されている」という意味で、何かによって守られている状態を指します。治安の良さを表現するには "safe" が適切です。
   - step_number: 20
-    body: "今回のフレーズをもう一度確認しましょう。<br>「日本は時間に正確な公共交通機関で知られています。」"
+    body: "「日本は世界で最も安全な国のひとつです」を英語で言うと？"
     choices:
-      - body: "Japan is known for its punctual public transportation."
+      - body: "Japan is one of the safest countries in the world."
         is_correct: true
         feedback: |-
-          "Japan is known for 〜" の構文で日本の特徴を紹介できます。"Japan is known for its cuisine."（日本は料理で知られています）・"Japan is known for its safety."（日本は安全で知られています）のように応用できます。
+          正解！<b>Japan is one of the safest countries in the world.</b> "one of the＋最上級＋複数名詞" は「〜のひとつ」という定番構文。"one of the safest countries"（最も安全な国のひとつ）は "the safest country"（最も安全な国）より謙虚で自然な表現です。
+      - body: "Japan is the most safe country in the world."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Japan is one of the safest countries in the world.</b> です。"most safe" ではなく "safest" が正しい最上級です。1音節の形容詞（safe）は "-est" をつけて最上級を作ります。TOEICでも形容詞の比較級・最上級は頻出問題です。
+      - body: "Japan is a very safe country than others."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Japan is one of the safest countries in the world.</b> です。"safe than others" は比較級（safer than others）を使うべきで "very safe" と組み合わせると矛盾します。最上級 "safest" または比較級 "safer" のどちらかに統一しましょう。
+  - step_number: 21
+    body: "「日本は世界で最も安全な国のひとつです。」を英語で言うと？"
+    choices:
+      - body: "Japan is one of the safest countries in the world."
+        is_correct: true
+        feedback: |-
+          正解！<b>Japan is one of the safest countries in the world.</b> "one of the＋最上級＋複数名詞" は会話で頻繁に使う構文。"Tokyo is one of the most exciting cities in the world."（東京は世界で最もエキサイティングな都市のひとつ）のように応用できます。
+      - body: "Japan is among the world's safest nations."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Japan is one of the safest countries in the world.</b> です。"among the world's safest nations" も正しい英語ですが、"nations" はやや格式張った表現です。会話では "one of the safest countries in the world" の方が自然です。
+      - body: "Japan has a very high level of public safety compared to other countries."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Japan is one of the safest countries in the world.</b> です。内容は正しいですが非常に冗長です。"one of the safest countries in the world" という最上級表現で同じ意味をコンパクトに伝えましょう。

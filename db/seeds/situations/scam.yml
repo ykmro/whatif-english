@@ -1,0 +1,322 @@
+slug: "scam"
+cefr: "b2"
+title: "旅行先でカモられないための英会話"
+overview: "海外旅行中にぼったくりや詐欺に遭いそうになったとき、毅然と断り・反論し・権利を主張するための英会話を学びます。"
+scenario: "旅行先のタクシーやお土産屋で不当な請求をされました。黙って払わず、価格の確認・返金の要求・警察への連絡など、自分を守るための表現を身につけましょう。"
+thumbnail: "top/situation_thum_scam.png"
+steps:
+  - step_number: 1
+    body: "「過大請求される・ぼったくられる」を英語で言うと？"
+    choices:
+      - body: "overcharged"
+        is_correct: true
+        feedback: |-
+          正解！「過大請求された」は <b>overcharged</b> です。"I think I've been overcharged."（ぼったくられたと思います）が定番表現。"over-"（過剰に）＋"charge"（請求する）で「余計に請求された」という意味になります。
+      - body: "overpaid"
+        is_correct: false
+        feedback: |-
+          惜しい！「過大請求された」は <b>overcharged</b> です。"overpaid" は「払いすぎた（自分から多く払った）」という意味で、相手が不当に請求した場合には "overcharged" が正確です。「請求された側」の視点で使う言葉の違いに注意しましょう。
+      - body: "overtaxed"
+        is_correct: false
+        feedback: |-
+          惜しい！「ぼったくられた」は <b>overcharged</b> です。"overtaxed" は「税金を過剰に課された・酷使された」という意味で、ぼったくりには使いません。旅行中の不当請求には "overcharged" を使いましょう。
+  - step_number: 2
+    body: "「ぼったくられたと思います」を英語で言うと？"
+    choices:
+      - body: "I think I've been overcharged."
+        is_correct: true
+        feedback: |-
+          正解！<b>I think I've been overcharged.</b> "I think I've been〜" は「〜されたと思います」という現在完了の受動態。断定を避けつつ問題を提起できる表現です。請求書を見せながら使うと効果的です。
+      - body: "I think I paid too much."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I think I've been overcharged.</b> です。"paid too much" は「払いすぎた」という意味で、自分のミスのようなニュアンスになります。相手の不正請求を指摘するには "overcharged"（不当に請求された）という受動態の表現が適切です。
+      - body: "I think you charged me incorrectly."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I think I've been overcharged.</b> です。内容は正しいですが、"incorrectly"（誤って）は単なるミスのような印象を与えます。"overcharged"（過大請求）という具体的な用語の方が問題の深刻さを明確に伝えられます。
+  - step_number: 3
+    body: "「ぼったくられたと思います。」を英語で言うと？"
+    choices:
+      - body: "I think I've been overcharged."
+        is_correct: true
+        feedback: |-
+          正解！<b>I think I've been overcharged.</b> 請求書や価格表を指しながら "This price is different from what we agreed on."（合意した価格と違います）と続けると交渉力が高まります。
+      - body: "I believe this bill is wrong."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I think I've been overcharged.</b> です。"this bill is wrong" は「請求書が間違っている」という意味で通じますが、"overcharged" という具体的な用語を使う方が何が問題かを明確に伝えられます。
+      - body: "I feel like I was ripped off."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I think I've been overcharged.</b> です。"ripped off" は「ぼったくられた」というスラングで意味は通じますが、フォーマルな場（店員・ホテルスタッフへの交渉）ではやや不適切です。"overcharged" の方が丁寧で確実に通じます。
+  - step_number: 4
+    body: "「領収書」を英語で言うと？"
+    choices:
+      - body: "receipt"
+        is_correct: true
+        feedback: |-
+          正解！「領収書」は <b>receipt</b> です。発音は「レシート」（最後の "t" は発音しない）。"Could I have a receipt, please?"（領収書をいただけますか？）が定番表現。海外では領収書をもらわないと後で証明できないため必ず要求しましょう。
+      - body: "recipe"
+        is_correct: false
+        feedback: |-
+          惜しい！「領収書」は <b>receipt</b> です。"recipe" は「料理のレシピ」のこと。発音が似ているため日本人が最も混同しやすいペアです。"re-CEIPT"（レシート：領収書）と "RE-ci-pe"（レシピ：料理の手順）を区別しましょう。
+      - body: "invoice"
+        is_correct: false
+        feedback: |-
+          惜しい！「（支払い済みの）領収書」は <b>receipt</b> です。"invoice" は「請求書（まだ支払っていない）」のこと。支払い後にもらう証明書は "receipt"、支払いを求める書類は "invoice" と使い分けましょう。TOEICでも頻出の区別です。
+  - step_number: 5
+    body: "「領収書をいただけますか？」を英語で言うと？"
+    choices:
+      - body: "Could I have a receipt, please?"
+        is_correct: true
+        feedback: |-
+          正解！<b>Could I have a receipt, please?</b> 海外ではすべての支払いで領収書を要求する習慣をつけましょう。後でクレームをつける際の証拠になります。"Could I have〜?" は丁寧な依頼の定番構文です。
+      - body: "Can I get a recipe for this?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Could I have a receipt, please?</b> です。"recipe" は「料理の作り方」、"receipt" は「領収書」です。この2語の混同はTOEICでも頻出の引っかけ問題。発音・スペルをしっかり区別しましょう。
+      - body: "Please write me an invoice."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Could I have a receipt, please?</b> です。"invoice" は支払い前の「請求書」。支払い後に受け取る証明書は "receipt" です。また "Please write me〜" より "Could I have〜?" の方が丁寧な依頼になります。
+  - step_number: 6
+    body: "「領収書をいただけますか？」を英語で言うと？"
+    choices:
+      - body: "Could I have a receipt, please?"
+        is_correct: true
+        feedback: |-
+          正解！<b>Could I have a receipt, please?</b> 「レシートください」は海外では必須フレーズ。"Could I also have an itemized receipt?"（明細付きの領収書もいただけますか？）と追加すれば、詳細な内訳を確認できます。
+      - body: "May I receive a receipt from you?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Could I have a receipt, please?</b> です。"May I receive〜" は文法的には正しいですが非常に丁寧すぎて不自然です。"Could I have〜?" のシンプルな表現が最も自然で使いやすいです。
+      - body: "Would you mind giving me a receipt?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Could I have a receipt, please?</b> です。"Would you mind〜?" も丁寧な表現ですが、"mind"（嫌だと思う）という語が含まれるため、日常の依頼には "Could I have〜?" の方がシンプルで適切です。
+  - step_number: 7
+    body: "「定価・固定料金」を英語で言うと？"
+    choices:
+      - body: "fixed price"
+        is_correct: true
+        feedback: |-
+          正解！「定価・固定料金」は <b>fixed price</b> です。"Is this the fixed price?"（これが定価ですか？）が定番表現。交渉できない定価の場合は "This is a fixed price."（定価です）と言われます。土産屋や市場での価格確認に使えます。
+      - body: "set price"
+        is_correct: false
+        feedback: |-
+          惜しい！「定価」は <b>fixed price</b> が最も一般的です。"set price" も意味は通じますが、"fixed price" の方が広く使われています。"fixed"（固定された）という言葉が「交渉不可の定価」というニュアンスをより明確に伝えます。
+      - body: "standard price"
+        is_correct: false
+        feedback: |-
+          惜しい！「定価」は <b>fixed price</b> です。"standard price" は「標準価格」というニュアンスで、値引き交渉が可能な場合もあります。交渉余地のない定価を確認するには "fixed price" が正確です。
+  - step_number: 8
+    body: "「これが定価ですか？」を英語で言うと？"
+    choices:
+      - body: "Is this the fixed price?"
+        is_correct: true
+        feedback: |-
+          正解！<b>Is this the fixed price?</b> メニューや価格表がない場合、注文前に必ず価格を確認しましょう。"Is this the price per person?"（一人あたりの価格ですか？）のように確認項目を変えて応用できます。
+      - body: "Is this price negotiable?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Is this the fixed price?</b> です。"Is this price negotiable?"（値段交渉はできますか？）は「値引き交渉をしたい」という意味で、定価確認とは異なります。まずは "Is this the fixed price?" で価格を確認しましょう。
+      - body: "How much does this really cost?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Is this the fixed price?</b> です。"really cost" は「本当はいくら？」という疑問口調で、失礼に聞こえる場合があります。定価確認には "Is this the fixed price?" の方が適切で丁寧です。
+  - step_number: 9
+    body: "「これが定価ですか？」を英語で言うと？"
+    choices:
+      - body: "Is this the fixed price?"
+        is_correct: true
+        feedback: |-
+          正解！<b>Is this the fixed price?</b> 観光地では料金表を見せてもらうことも重要。"Could you show me the price list?"（価格表を見せてもらえますか？）とセットで使えます。
+      - body: "Is the price set in stone?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Is this the fixed price?</b> です。"set in stone" は「変更不可・絶対的に決まった」という意味の慣用句で、やや強い表現です。"Is this the fixed price?" のシンプルな質問の方が自然です。
+      - body: "Can I check the correct price?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Is this the fixed price?</b> です。"Can I check the correct price?" は「正しい価格を確認できますか？」という意味で、相手の誤りを前提とした表現です。まず "Is this the fixed price?" で確認する姿勢が大切です。
+  - step_number: 10
+    body: "「同意する」を英語で言うと？"
+    choices:
+      - body: "agree"
+        is_correct: true
+        feedback: |-
+          正解！「同意する」は <b>agree</b> です。"I didn't agree to this price."（この価格に同意していません）のように否定形で使うと、不当請求への反論として有効です。"agree to〜"（〜に同意する）の形を覚えましょう。
+      - body: "accept"
+        is_correct: false
+        feedback: |-
+          惜しい！「（価格・条件に）同意する」は <b>agree</b> が最適です。"accept" は「受け入れる・承認する」という意味で使えますが、"agree to a price"（価格に同意する）の文脈では "agree" が自然です。"I didn't agree to this price." が最も明確な表現です。
+      - body: "approve"
+        is_correct: false
+        feedback: |-
+          惜しい！「同意する（価格に）」は <b>agree</b> です。"approve" は「承認する・可決する」という意味で、上位者が許可を与えるニュアンスがあります。日常的な合意・同意には "agree" を使いましょう。
+  - step_number: 11
+    body: "「この価格に同意していません」を英語で言うと？"
+    choices:
+      - body: "I didn't agree to this price."
+        is_correct: true
+        feedback: |-
+          正解！<b>I didn't agree to this price.</b> 契約や合意なしに価格を請求された際の反論フレーズ。"agree to〜"（〜に同意する）を否定することで、事前に合意がなかったことを明確に伝えられます。
+      - body: "I don't agree with this price."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I didn't agree to this price.</b> です。"don't agree with〜" は「〜に賛成しない（現在の意見の不一致）」という意味。"didn't agree to〜" は「（事前に）同意しなかった（過去の事実）」を表し、不当請求への反論としてより適切です。
+      - body: "This price was not told to me."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I didn't agree to this price.</b> です。"was not told to me" は受動態で意味は通じますが、"I didn't agree to this price." の方がより積極的に自分の立場を主張できます。交渉では "agree"（同意）というキーワードが重要です。
+  - step_number: 12
+    body: "「この価格に同意していません。」を英語で言うと？"
+    choices:
+      - body: "I didn't agree to this price."
+        is_correct: true
+        feedback: |-
+          正解！<b>I didn't agree to this price.</b> 続けて "The price we agreed on was〜."（合意した価格は〜でした）と具体的な金額を示すと交渉力が増します。証拠となるメモや会話を残しておくことも重要です。
+      - body: "I never said I would pay this much."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I didn't agree to this price.</b> です。"I never said〜" も意味は通じますが、"agree to〜"（同意する）という法的・契約的なニュアンスの方が交渉において説得力があります。
+      - body: "You are charging me the wrong amount."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I didn't agree to this price.</b> です。"charging me the wrong amount" は相手を責める表現で、対立を招く可能性があります。"I didn't agree to this price." の方が自分の立場を冷静に伝えられます。
+  - step_number: 13
+    body: "「（タクシーの）メーター」を英語で言うと？"
+    choices:
+      - body: "meter"
+        is_correct: true
+        feedback: |-
+          正解！「（タクシーの）メーター」は <b>meter</b> です。"Please use the meter."（メーターを使ってください）は海外のタクシーで必ず言えるようにしましょう。メーターを使わない（または止める）タクシーはぼったくりの典型的な手口です。
+      - body: "gauge"
+        is_correct: false
+        feedback: |-
+          惜しい！「タクシーのメーター」は <b>meter</b> です。"gauge" は「計器・ゲージ」という意味で、主に工業・車のガソリンゲージなどに使います。タクシーの料金計は "meter" と言いましょう。
+      - body: "counter"
+        is_correct: false
+        feedback: |-
+          惜しい！「タクシーのメーター」は <b>meter</b> です。"counter" は「カウンター・レジ・窓口」という意味。料金を表示する機械はタクシーでは "meter" です。
+  - step_number: 14
+    body: "「メーターを使ってください」を英語で言うと？"
+    choices:
+      - body: "Please use the meter."
+        is_correct: true
+        feedback: |-
+          正解！<b>Please use the meter.</b> タクシーに乗ったら最初に言う重要なフレーズ。メーターなしで交渉金額を請求するドライバーには乗車前に "Do you use a meter?"（メーターを使いますか？）と確認するのも有効です。
+      - body: "Please turn on the taximeter."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Please use the meter.</b> です。"taximeter" はタクシーメーターの正式名称で意味は通じますが、日常会話では "meter" とシンプルに言う方が自然です。"Please use the meter." を覚えましょう。
+      - body: "Please start the clock."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Please use the meter.</b> です。"start the clock" はスポーツなどで「時計を動かす」という表現で、タクシーメーターには使いません。"meter" という正確な単語を使いましょう。
+  - step_number: 15
+    body: "「メーターを使ってください。」を英語で言うと？"
+    choices:
+      - body: "Please use the meter."
+        is_correct: true
+        feedback: |-
+          正解！<b>Please use the meter.</b> もしドライバーがメーターを使わない場合は "I won't ride if you don't use the meter."（メーターを使わないなら乗りません）と毅然と伝えることも大切です。
+      - body: "I want you to use the meter, please."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Please use the meter.</b> です。"I want you to〜" は命令的なニュアンスがあります。"Please〜" のシンプルな命令形の方が直接的で自然な依頼になります。
+      - body: "Could you switch on the pricing device?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Please use the meter.</b> です。"pricing device" は不自然な言い方です。タクシーメーターは "meter" の一語で伝わります。シンプルで明確な表現を使いましょう。
+  - step_number: 16
+    body: "「警察」を英語で言うと？"
+    choices:
+      - body: "police"
+        is_correct: true
+        feedback: |-
+          正解！「警察」は <b>police</b> です。"I'll call the police."（警察を呼びます）は詐欺・ぼったくりへの最終手段として有効なフレーズ。実際に呼ぶかどうかに関わらず、この一言で状況が改善することもあります。
+      - body: "officer"
+        is_correct: false
+        feedback: |-
+          惜しい！「警察（組織・機関）」は <b>police</b> です。"officer" は「警察官（個人）」を指す言葉。"I'll call the officer" は不自然で、組織を呼ぶ意味では "police" が正しいです。
+      - body: "security"
+        is_correct: false
+        feedback: |-
+          惜しい！「警察」は <b>police</b> です。"security" は「警備員・セキュリティ（私的な警備）」のことで、国家機関の警察とは異なります。ショッピングモールやホテルの警備員には "security"、公的な警察機関には "police" を使いましょう。
+  - step_number: 17
+    body: "「警察を呼びます」を英語で言うと？"
+    choices:
+      - body: "I'll call the police."
+        is_correct: true
+        feedback: |-
+          正解！<b>I'll call the police.</b> "I'll〜" は「（今から）〜します」という意思表明。この一言が詐欺師や悪質な業者への抑止力になります。実際の緊急番号も確認しておきましょう（米：911、英：999、欧州共通：112）。
+      - body: "I'm going to call the police."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I'll call the police.</b> です。"I'm going to〜" も意味は通じますが、"I'll〜" の方が即時の強い意思を表します。"I'll call the police." の方が緊急時の宣言として力強く伝わります。
+      - body: "I will get an officer here."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I'll call the police.</b> です。"get an officer here" は意味は通じますが、"call the police"（警察を呼ぶ）の方が明確で一般的な表現です。警察を呼ぶ意思表示には "call the police" を使いましょう。
+  - step_number: 18
+    body: "「警察を呼びます。」を英語で言うと？"
+    choices:
+      - body: "I'll call the police."
+        is_correct: true
+        feedback: |-
+          正解！<b>I'll call the police.</b> 問題が解決しない場合は "I'd like to file a complaint with the police."（警察に苦情を申し立てたい）と続けることもできます。証拠（領収書・写真・メモ）を保管しておくことが重要です。
+      - body: "I'll contact the authorities."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I'll call the police.</b> です。"contact the authorities" は「当局に連絡する」という意味で文法的に正しいですが、"call the police" の方が具体的で直接的な威圧感があります。緊急時の抑止力としては "I'll call the police." が有効です。
+      - body: "I need to report this to the cops."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I'll call the police.</b> です。"cops" は警察官のスラングで、フォーマルな状況や外国人との交渉では "police" の方が適切です。スラングは相手によっては非礼に受け取られることがあります。
+  - step_number: 19
+    body: "「断る・拒否する」を英語で言うと？"
+    choices:
+      - body: "refuse"
+        is_correct: true
+        feedback: |-
+          正解！「断る・拒否する」は <b>refuse</b> です。"I refuse to pay this amount."（この金額は支払いを拒否します）が定番表現。"refuse to〜"（〜することを拒否する）という構文を覚えましょう。
+      - body: "decline"
+        is_correct: false
+        feedback: |-
+          惜しい！「強く拒否する」は <b>refuse</b> が最適です。"decline" も「断る」という意味ですが、"decline" はより丁寧・婉曲的なニュアンスで「辞退する」に近い表現です。不当請求への明確な拒否には "refuse" が力強く伝わります。
+      - body: "reject"
+        is_correct: false
+        feedback: |-
+          惜しい！「（支払いを）拒否する」は <b>refuse</b> が最適です。"reject" は「却下する・排除する（申請・応募などを）」という意味で、不当な支払いへの拒否には "refuse to pay" が適切です。
+  - step_number: 20
+    body: "「この金額は支払いを拒否します」を英語で言うと？"
+    choices:
+      - body: "I refuse to pay this amount."
+        is_correct: true
+        feedback: |-
+          正解！<b>I refuse to pay this amount.</b> "refuse to〜" は「〜することを拒否する」という強い意思表明。"I refuse to pay until I see an itemized bill."（明細書を見るまで支払いを拒否します）のように条件を加えることもできます。
+      - body: "I don't want to pay this price."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I refuse to pay this amount.</b> です。"I don't want to〜" は「〜したくない（希望）」という弱い表現です。"I refuse to〜" は「拒否する（意思・権利の行使）」という強い宣言で、交渉においてより効果的です。
+      - body: "I'm not going to pay this."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I refuse to pay this amount.</b> です。"I'm not going to pay this" は口語的な表現で意味は通じますが、"I refuse to pay this amount." の方が明確で法的なニュアンスを持ち、交渉において説得力があります。
+  - step_number: 21
+    body: "「この金額は支払いを拒否します。」を英語で言うと？"
+    choices:
+      - body: "I refuse to pay this amount."
+        is_correct: true
+        feedback: |-
+          正解！<b>I refuse to pay this amount.</b> 毅然とした態度で権利を主張することが大切です。"I have already called the police."（すでに警察に連絡しました）と続けることで、さらに状況を打開できる場合があります。旅行前に現地の消費者保護機関の連絡先を調べておくと安心です。
+      - body: "I refuse paying this amount."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I refuse to pay this amount.</b> です。"refuse" の後には "to不定詞" が来ます。"refuse paying"（動名詞）は文法的に誤りです。"refuse to do〜"（〜することを拒否する）の構文を覚えましょう。TOEICでも "refuse＋to不定詞" は頻出の文法ポイントです。
+      - body: "I will not be paying this amount."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I refuse to pay this amount.</b> です。"will not be paying" は未来進行形の否定で意味は通じますが、"I refuse to pay" の方がより明確で強い意思表明になります。権利を主張する場面では "refuse" を使いましょう。
