@@ -36,21 +36,6 @@ steps:
         feedback: |-
           惜しい！正解は <b>My checked baggage hasn't arrived.</b> です。"is missing" も意味は通じますが、受け取りを待っている状況は "hasn't arrived" の方が自然です。また "checked" をつけて預け荷物であることを明示しましょう。
   - step_number: 3
-    body: "「預け荷物が届いていません。」を英語で言うと？"
-    choices:
-      - body: "My checked baggage hasn't arrived."
-        is_correct: true
-        feedback: |-
-          正解！<b>My checked baggage hasn't arrived.</b> カウンターで最初に言う一言。"baggage" と "luggage" はほぼ同じ意味で、"My checked luggage hasn't arrived." とも言えます。
-      - body: "I can't find my suitcase at the baggage claim."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>My checked baggage hasn't arrived.</b> です。"suitcase" はスーツケース1個を指す言葉。バッグ全般を指す "baggage" を使い、"checked" で預け荷物であることを示す方が正確です。
-      - body: "My luggage has been lost by the airline."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>My checked baggage hasn't arrived.</b> です。"has been lost by the airline" は航空会社の責任を断定する表現で、申告の段階では強すぎます。まずは状況を報告する "hasn't arrived" を使いましょう。
-  - step_number: 4
     body: "「荷物の紛失届（申告書）」を英語で言うと？"
     choices:
       - body: "baggage claim report"
@@ -65,7 +50,7 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！「荷物の紛失届」は <b>baggage claim report</b> です。"baggage ticket" は預け入れ時に渡される「手荷物引換証（クレームタグ）」のこと。紛失の申告書は "claim report" です。
-  - step_number: 5
+  - step_number: 4
     body: "「荷物の紛失届を提出したいのですが」を英語で言うと？"
     choices:
       - body: "I'd like to file a baggage claim report."
@@ -80,22 +65,7 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！正解は <b>I'd like to file a baggage claim report.</b> です。"complain" は「不満を言う」というニュアンスが強く、正式な申告には不適切です。手続きを求める際は "file a report" という表現を使いましょう。
-  - step_number: 6
-    body: "「荷物の紛失届を提出したいのですが。」を英語で言うと？"
-    choices:
-      - body: "I'd like to file a baggage claim report."
-        is_correct: true
-        feedback: |-
-          正解！<b>I'd like to file a baggage claim report.</b> "I'd like to〜" は "I would like to〜" の短縮形で、"I want to〜" より丁寧。TOEICのビジネス英語でも "I'd like to〜" は頻出表現です。
-      - body: "I'd like to make a report for my baggage."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>I'd like to file a baggage claim report.</b> です。"make a report" も間違いではありませんが、書類提出には "file a report" が正確な表現です。「書類を提出する」は "file" を使うのが定番です。
-      - body: "I'd like to claim my missing baggage."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>I'd like to file a baggage claim report.</b> です。"claim my missing baggage" は「行方不明の荷物を請求する」という意味で、紛失届の提出とは少し異なります。まずは "file a report" で手続きを開始しましょう。
-  - step_number: 7
+  - step_number: 5
     body: "「手荷物引換証（クレームタグ）」を英語で言うと？"
     choices:
       - body: "baggage claim tag"
@@ -110,13 +80,13 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！「手荷物引換証」は <b>baggage claim tag</b> です。"receipt" は「領収書・受領証」のこと。荷物のタグは "tag"（または "sticker" と呼ぶこともある）で、"receipt" とは区別しましょう。
-  - step_number: 8
+  - step_number: 6
     body: "「こちらが手荷物引換証です」を英語で言うと？"
     choices:
       - body: "Here is my baggage claim tag."
         is_correct: true
         feedback: |-
-          正解！<b>Here is my baggage claim tag.</b> "Here is〜" は「こちらが〜です」と物を渡す時の定番表現。書類や証明書を提示する場面で広く使えます。
+          正解！<b>Here is my baggage claim tag.</b> "Here is〜" は「こちらが〜です」と物を渡す時の定番表現。"Here is my passport."（パスポートです）・"Here is my ticket."（チケットです）のように応用できます。
       - body: "This is the tag for my bag."
         is_correct: false
         feedback: |-
@@ -125,67 +95,7 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！正解は <b>Here is my baggage claim tag.</b> です。"sticker" は非公式な言い方で、"baggage claim tag" の正式な名称を使いましょう。また "Here is〜" の方が物を渡す場面で自然な表現です。
-  - step_number: 9
-    body: "「こちらが手荷物引換証です。」を英語で言うと？"
-    choices:
-      - body: "Here is my baggage claim tag."
-        is_correct: true
-        feedback: |-
-          正解！<b>Here is my baggage claim tag.</b> "Here is〜" はパスポートや証明書を見せる場面でも使える万能表現。"Here is my passport."（パスポートです）・"Here is my ticket."（チケットです）のように応用できます。
-      - body: "Please look at my baggage tag."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Here is my baggage claim tag.</b> です。"Please look at〜" は「〜を見てください」と指示するような表現になってしまいます。物を提示する際は "Here is〜" の方が自然で丁寧です。
-      - body: "I'd like to show you my claim tag."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Here is my baggage claim tag.</b> です。"I'd like to show you〜" は文法的に正しいですが、実際に渡す場面では "Here is〜" の方がより端的で自然です。
-  - step_number: 10
-    body: "「荷物の特徴を説明する」時に使う「外見・見た目」を英語で言うと？"
-    choices:
-      - body: "description"
-        is_correct: true
-        feedback: |-
-          正解！「外見・特徴の説明」は <b>description</b> です。"Can I have a description of the bag?"（バッグの特徴を教えてもらえますか？）のように使います。"describe"（動詞）で "Could you describe your bag?" とも言えます。
-      - body: "prescription"
-        is_correct: false
-        feedback: |-
-          惜しい！「外見の説明」は <b>description</b> です。"prescription" は「処方箋」のこと。スペルが似ており日本人が混同しやすいですが、全く異なる意味です。"de-"（説明）と "pre-"（事前）で使い分けましょう。
-      - body: "decoration"
-        is_correct: false
-        feedback: |-
-          惜しい！「外見の説明」は <b>description</b> です。"decoration" は「装飾・デコレーション」のこと。語尾が似ているため混同しやすいですが、"description"（説明）とは別の単語です。
-  - step_number: 11
-    body: "「バッグは大きな黒いスーツケースです」を英語で言うと？"
-    choices:
-      - body: "The bag is a large black suitcase."
-        is_correct: true
-        feedback: |-
-          正解！<b>The bag is a large black suitcase.</b> 荷物の特徴を伝える際は、サイズ・色・種類の順番で説明するのが自然です。さらに詳しく "with a red ribbon on the handle"（持ち手に赤いリボンがついている）などを追加できます。
-      - body: "My suitcase is black and big."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>The bag is a large black suitcase.</b> です。"black and big" の語順は不自然です。英語では形容詞の順番に規則があり、サイズ（big/large）→色（black）の順番で名詞の前に置くのが正しいです。
-      - body: "It is a big, dark-colored luggage."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>The bag is a large black suitcase.</b> です。"dark-colored" は曖昧すぎます。また "luggage" は不可算名詞なので "a luggage" とは言えません。具体的な色と "suitcase" という単語を使いましょう。
-  - step_number: 12
-    body: "「バッグは大きな黒いスーツケースです。」を英語で言うと？"
-    choices:
-      - body: "The bag is a large black suitcase."
-        is_correct: true
-        feedback: |-
-          正解！<b>The bag is a large black suitcase.</b> 荷物を探してもらうために特徴を具体的に伝えましょう。色・サイズ・ブランド名・目印（"with a name tag" タグがついている）なども追加すると見つかりやすくなります。
-      - body: "The bag is big, black, and a suitcase type."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>The bag is a large black suitcase.</b> です。"suitcase type" は不自然な表現です。"a large black suitcase" のように形容詞を名詞の前に置くシンプルな構造を使いましょう。
-      - body: "My luggage looks like a large black bag."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>The bag is a large black suitcase.</b> です。"looks like〜" は「〜のように見える」という表現で、断定より弱いニュアンスになります。特徴を明確に説明する際は "is a〜" で言い切りましょう。
-  - step_number: 13
+  - step_number: 7
     body: "「〜に届ける」を英語で言うと？"
     choices:
       - body: "deliver"
@@ -200,7 +110,7 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！「〜に届ける」は <b>deliver</b> です。"send" も「送る・届ける」という意味を持ちますが、荷物の配達依頼には "deliver" がより直接的で適した表現です。
-  - step_number: 14
+  - step_number: 8
     body: "「ホテルに届けていただけますか？」を英語で言うと？"
     choices:
       - body: "Could you deliver it to my hotel?"
@@ -215,22 +125,7 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！正解は <b>Could you deliver it to my hotel?</b> です。"where I'm staying" は曖昧な表現です。"my hotel" のように具体的に伝えましょう。また "Please〜" より "Could you〜?" の方が柔らかく丁寧な依頼になります。
-  - step_number: 15
-    body: "「ホテルに届けていただけますか？」を英語で言うと？"
-    choices:
-      - body: "Could you deliver it to my hotel?"
-        is_correct: true
-        feedback: |-
-          正解！<b>Could you deliver it to my hotel?</b> 荷物が後日見つかった場合、多くの航空会社は宿泊先への配達サービスを提供しています。ホテル名・住所・チェックアウト日時も合わせて伝えましょう。
-      - body: "Would it be possible to deliver it to my accommodation?"
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Could you deliver it to my hotel?</b> です。"accommodation" は「宿泊施設」の総称で間違いではありませんが、"hotel" や "hostel" と具体的に言う方が確実です。また "Would it be possible〜" は過度に丁寧な表現です。
-      - body: "Can you ship the bag to my hotel address?"
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Could you deliver it to my hotel?</b> です。"ship" は通常、郵便・宅配便による輸送を指します。同じ国内・都市内の配達には "deliver" が自然な表現です。
-  - step_number: 16
+  - step_number: 9
     body: "「補償・賠償」を英語で言うと？"
     choices:
       - body: "compensation"
@@ -245,7 +140,7 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！「補償」は <b>compensation</b> です。"commission" は「手数料・委任」という意味。語頭が同じ "com-" のため混同しやすいですが、"compensation"（補償）と "commission"（手数料）は別の単語です。
-  - step_number: 17
+  - step_number: 10
     body: "「補償を請求したいのですが」を英語で言うと？"
     choices:
       - body: "I'd like to request compensation."
@@ -260,63 +155,3 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！正解は <b>I'd like to request compensation.</b> です。"paid back" は「お金を返してもらう（返済）」というニュアンスになります。荷物の損害補償には "compensation" という正式な用語を使いましょう。
-  - step_number: 18
-    body: "「補償を請求したいのですが。」を英語で言うと？"
-    choices:
-      - body: "I'd like to request compensation."
-        is_correct: true
-        feedback: |-
-          正解！<b>I'd like to request compensation.</b> 補償の根拠として "under your airline's policy"（御社の規定に基づいて）や "for the inconvenience caused"（ご迷惑をおかけしたことに対して）を加えると交渉力が高まります。
-      - body: "I'd like to claim for damages."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>I'd like to request compensation.</b> です。"claim for damages" は法的な損害賠償請求のニュアンスが強く、空港カウンターでの交渉には "request compensation" の方が適切です。
-      - body: "I'd like to complain about your service."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>I'd like to request compensation.</b> です。"complain" は「不満を言う」という意味で、具体的な補償の請求にはなりません。また "complain" と "compensation" の混同にも注意が必要です。
-  - step_number: 19
-    body: "「照会番号（問い合わせ番号）」を英語で言うと？"
-    choices:
-      - body: "reference number"
-        is_correct: true
-        feedback: |-
-          正解！「照会番号」は <b>reference number</b> です。紛失荷物の追跡や問い合わせに使う番号のこと。航空会社の担当者から必ずもらうようにしましょう。略して "ref number" とも言います。
-      - body: "confirmation number"
-        is_correct: false
-        feedback: |-
-          惜しい！「照会番号」は <b>reference number</b> です。"confirmation number" は「予約確認番号」のこと。フライトの予約で使う番号で、荷物の問い合わせ番号とは異なります。TOEICでもよく出る区別です。
-      - body: "tracking code"
-        is_correct: false
-        feedback: |-
-          惜しい！「照会番号」は <b>reference number</b> です。"tracking code" は荷物追跡に使うコードで似ていますが、航空会社が発行する問い合わせ番号の正式な呼び方は "reference number" です。
-  - step_number: 20
-    body: "「照会番号をいただけますか？」を英語で言うと？"
-    choices:
-      - body: "Could I have a reference number, please?"
-        is_correct: true
-        feedback: |-
-          正解！<b>Could I have a reference number, please?</b> 紛失報告後は必ず照会番号をもらいましょう。これがないと後のフォローアップができません。"Could I have〜?" は丁寧な依頼の定番構文です。
-      - body: "Can I get a number to track my bag?"
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Could I have a reference number, please?</b> です。意味は通じますが、"reference number" という正式な用語を使う方が確実です。また "Can I〜?" より "Could I〜?" の方が丁寧な表現です。
-      - body: "Please give me a confirmation number."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Could I have a reference number, please?</b> です。"confirmation number" は予約確認番号を指します。荷物の問い合わせ番号は "reference number" です。また "Please give me〜" より "Could I have〜?" の方が丁寧な依頼になります。
-  - step_number: 21
-    body: "「照会番号をいただけますか？」を英語で言うと？"
-    choices:
-      - body: "Could I have a reference number, please?"
-        is_correct: true
-        feedback: |-
-          正解！<b>Could I have a reference number, please?</b> 照会番号があれば後日ウェブサイトや電話で荷物の状況を確認できます。"Could I also have your direct contact number?"（直通の連絡先もいただけますか？）と合わせて聞くと安心です。
-      - body: "What number should I use to follow up?"
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Could I have a reference number, please?</b> です。"follow up" は「フォローアップ・追跡調査をする」という意味で文法的には正しいですが、"reference number" という具体的な用語を使った依頼の方がより明確です。
-      - body: "Could I have your file number for this case?"
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Could I have a reference number, please?</b> です。"file number" も案件番号の意味で使うことがありますが、航空会社の荷物問い合わせでは "reference number" が標準的な用語です。

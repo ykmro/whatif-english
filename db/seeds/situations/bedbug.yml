@@ -36,21 +36,6 @@ steps:
         feedback: |-
           惜しい！正解は <b>There are bedbugs in my room.</b> です。"a bedbug problem" は間違いではありませんが、状況を直接・端的に報告するには "There are bedbugs in my room." の方が明確でシンプルです。
   - step_number: 3
-    body: "「部屋にベッドバグがいます。」を英語で言うと？"
-    choices:
-      - body: "There are bedbugs in my room."
-        is_correct: true
-        feedback: |-
-          正解！<b>There are bedbugs in my room.</b> "There is〜 / There are〜" 構文はホテルの問題報告でよく使います。"There's a leak in my bathroom."（バスルームから水漏れしています）・"There's no hot water."（お湯が出ません）のように応用できます。
-      - body: "My bed has bedbugs on it."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>There are bedbugs in my room.</b> です。"My bed has bedbugs on it" も意味は通じますが、ベッドバグはベッドだけでなく家具や壁の隙間にも潜むため、"in my room"（部屋全体）と伝える方が正確です。
-      - body: "Please come to my room because of bedbugs."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>There are bedbugs in my room.</b> です。まず状況を報告してから依頼するのが自然な流れです。"There are bedbugs in my room." で状況を伝えた上で "Could you send someone, please?"（誰か来てもらえますか？）と依頼しましょう。
-  - step_number: 4
     body: "「ベッドバグに噛まれた（状態）」を英語で言うと？"
     choices:
       - body: "bitten by bedbugs"
@@ -65,7 +50,7 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！「ベッドバグに噛まれた」は <b>bitten by bedbugs</b> です。"scratched" は「引っ掻かれた」という意味。ベッドバグは噛んで吸血するため "bitten"（噛まれた）が正確な表現です。
-  - step_number: 5
+  - step_number: 4
     body: "「ベッドバグに噛まれたようです」を英語で言うと？"
     choices:
       - body: "I think I've been bitten by bedbugs."
@@ -80,67 +65,7 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！正解は <b>I think I've been bitten by bedbugs.</b> です。"got hurt" は「怪我をした」という意味で、噛み傷には具体的な動詞 "bitten"（噛まれた）を使う方が状況が正確に伝わります。
-  - step_number: 6
-    body: "「ベッドバグに噛まれたようです。」を英語で言うと？"
-    choices:
-      - body: "I think I've been bitten by bedbugs."
-        is_correct: true
-        feedback: |-
-          正解！<b>I think I've been bitten by bedbugs.</b> 噛み跡を見せながら "Look at these bite marks."（この噛み跡を見てください）と続けると状況がより伝わります。痒みがある場合は "It's very itchy."（とても痒いです）も追加しましょう。
-      - body: "I think I was bitten by bedbugs."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>I think I've been bitten by bedbugs.</b> です。"was bitten"（過去形）も意味は通じますが、"have been bitten"（現在完了）の方が「今現在も影響がある」というニュアンスを含み、ホテルへの申告としてより適切です。
-      - body: "I feel like bedbugs attacked my skin."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>I think I've been bitten by bedbugs.</b> です。"attacked my skin" は不自然な表現です。"bitten by bedbugs"（ベッドバグに噛まれた）という具体的な表現を使いましょう。
-  - step_number: 7
-    body: "「部屋を変える」を英語で言うと？"
-    choices:
-      - body: "change my room"
-        is_correct: true
-        feedback: |-
-          正解！「部屋を変える」は <b>change my room</b> です。"I'd like to change my room."（部屋を変えていただきたいのですが）が定番表現。または "move to another room"（別の部屋に移る）とも言えます。
-      - body: "exchange my room"
-        is_correct: false
-        feedback: |-
-          惜しい！「部屋を変える」は <b>change my room</b> です。"exchange" は「〜と〜を交換する（双方向）」という意味で、部屋を替えてもらう場面では使いません。"change" または "switch" が自然な表現です。
-      - body: "replace my room"
-        is_correct: false
-        feedback: |-
-          惜しい！「部屋を変える」は <b>change my room</b> です。"replace" は「〜を取り替える・交換する（壊れたものを新しいものに）」という意味で、部屋変更には使いません。"change" または "switch" を使いましょう。
-  - step_number: 8
-    body: "「部屋を変えていただきたいのですが」を英語で言うと？"
-    choices:
-      - body: "I'd like to change my room."
-        is_correct: true
-        feedback: |-
-          正解！<b>I'd like to change my room.</b> "I'd like to〜" は「〜したいのですが」という丁寧な依頼表現。"I'd like to move to another room."（別の部屋に移りたいのですが）とも言えます。
-      - body: "I want a different room."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>I'd like to change my room.</b> です。"I want〜" は直接的な表現で、フロントへの依頼には "I'd like to〜" の方が丁寧で適切です。TOEICのビジネス英語でも "I'd like to〜" は "I want to〜" より丁寧な表現として出題されます。
-      - body: "Give me another room, please."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>I'd like to change my room.</b> です。"Give me〜" は命令調で非礼に聞こえます。ホテルのスタッフへの依頼には "I'd like to〜" や "Could I〜?" などの丁寧な表現を使いましょう。
-  - step_number: 9
-    body: "「部屋を変えていただきたいのですが。」を英語で言うと？"
-    choices:
-      - body: "I'd like to change my room."
-        is_correct: true
-        feedback: |-
-          正解！<b>I'd like to change my room.</b> 理由を伝える場合は "I'd like to change my room because there's a cockroach."（ゴキブリがいるので部屋を変えたいのですが）のように "because" で続けましょう。
-      - body: "I'd like to move to a different room."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>I'd like to change my room.</b> です。"move to a different room" も正しい表現ですが、"change my room" の方がシンプルで覚えやすいです。どちらも使えますが、今回は "change my room" を覚えましょう。
-      - body: "I'd like you to change the room for me."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>I'd like to change my room.</b> です。"I'd like you to〜" は「あなたに〜してほしい」という意味で、自分が行動する "I'd like to〜" とは異なります。部屋変更の依頼には "I'd like to change my room." がシンプルで適切です。
-  - step_number: 10
+  - step_number: 5
     body: "「苦情・クレーム」を英語で言うと？"
     choices:
       - body: "complaint"
@@ -155,7 +80,7 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！「苦情」は <b>complaint</b> です。"claim" は「要求・主張・クレーム（補償請求）」という意味で、苦情の申し入れとは異なります。日本語の「クレーム」は英語では "complaint" が正確です。和製英語に注意しましょう。
-  - step_number: 11
+  - step_number: 6
     body: "「苦情を申し入れたいのですが」を英語で言うと？"
     choices:
       - body: "I'd like to make a complaint."
@@ -170,22 +95,7 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！正解は <b>I'd like to make a complaint.</b> です。"tell you about a problem" は意味は通じますが、正式な苦情の申し入れには "make a complaint" という定型表現を使う方が伝わりやすいです。
-  - step_number: 12
-    body: "「苦情を申し入れたいのですが。」を英語で言うと？"
-    choices:
-      - body: "I'd like to make a complaint."
-        is_correct: true
-        feedback: |-
-          正解！<b>I'd like to make a complaint.</b> さらに深刻な場合は "I'd like to speak to the manager."（マネージャーに話したい）と続けることもできます。丁寧に、しかしはっきりと権利を主張しましょう。
-      - body: "I want to complain about my room."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>I'd like to make a complaint.</b> です。"I want to complain" は直接的な表現で、"I'd like to make a complaint." の方が丁寧でフォーマルです。公式な苦情申し入れには "make a complaint" の表現を使いましょう。
-      - body: "I'm not happy with my room."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>I'd like to make a complaint.</b> です。"I'm not happy with〜" は気持ちを表す表現で、正式な苦情申し入れとは異なります。フロントへの苦情申し入れには "make a complaint" が明確で適切です。
-  - step_number: 13
+  - step_number: 7
     body: "「害虫駆除」を英語で言うと？"
     choices:
       - body: "pest control"
@@ -200,7 +110,7 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！「害虫駆除」は <b>pest control</b> です。"bug extermination" も意味は通じますが、"extermination" はやや強い言葉（「根絶・殲滅」）です。ホテルでの日常会話では "pest control" が適切です。
-  - step_number: 14
+  - step_number: 8
     body: "「害虫駆除を手配してもらえますか？」を英語で言うと？"
     choices:
       - body: "Could you send pest control, please?"
@@ -215,22 +125,7 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！正解は <b>Could you send pest control, please?</b> です。"remove the insects" はフロントのスタッフに直接行動を求める表現になってしまいます。専門の業者（pest control）を呼んでもらうよう依頼するのが適切です。
-  - step_number: 15
-    body: "「害虫駆除を手配してもらえますか？」を英語で言うと？"
-    choices:
-      - body: "Could you send pest control, please?"
-        is_correct: true
-        feedback: |-
-          正解！<b>Could you send pest control, please?</b> "Could you send〜?" は便利な依頼表現。"Could you send a plumber?"（配管業者を呼んでもらえますか？）・"Could you send housekeeping?"（客室係を呼んでもらえますか？）のように応用できます。
-      - body: "Would you please arrange for pest control to come?"
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Could you send pest control, please?</b> です。"arrange for〜 to come" は文法的に正しいですが非常に冗長です。"Could you send pest control?" のシンプルな表現で十分伝わります。
-      - body: "I need you to call pest control services for me."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Could you send pest control, please?</b> です。"I need you to〜" は相手に強く要求するニュアンスがあります。"Could you〜?" の方がより丁寧で協力的なトーンになります。
-  - step_number: 16
+  - step_number: 9
     body: "「返金」を英語で言うと？"
     choices:
       - body: "refund"
@@ -245,7 +140,7 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！「返金」は <b>refund</b> です。"reimburse" は「費用を払い戻す・立替金を返す」という意味で、主にビジネスや保険の文脈で使います。ホテルの返金依頼には "refund" の方がシンプルで適切です。
-  - step_number: 17
+  - step_number: 10
     body: "「返金をお願いしたいのですが」を英語で言うと？"
     choices:
       - body: "I'd like a refund."
@@ -260,63 +155,3 @@ steps:
         is_correct: false
         feedback: |-
           惜しい！正解は <b>I'd like a refund.</b> です。"return my payment" は「支払いを返す」という意味で通じますが、返金の正式な用語は "refund" です。"Please give me a refund." または "I'd like a refund." を使いましょう。
-  - step_number: 18
-    body: "「返金をお願いしたいのですが。」を英語で言うと？"
-    choices:
-      - body: "I'd like a refund."
-        is_correct: true
-        feedback: |-
-          正解！<b>I'd like a refund.</b> 返金が難しい場合の代替案として "I'd like a discount on my bill."（宿泊費の割引をお願いしたいのですが）や "I'd like to be moved to a better room at no extra charge."（追加料金なしで良い部屋に移してほしい）なども提案できます。
-      - body: "I'd like to get a refund of my room."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>I'd like a refund.</b> です。"a refund of my room" は "a refund for my room" が正しい前置詞です。また "I'd like a refund." のシンプルな言い方で十分伝わります。
-      - body: "I'd like my money to be returned to me."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>I'd like a refund.</b> です。"my money to be returned to me" は非常に冗長です。"refund" という一語で返金の意味を表現できます。シンプルで明確な表現を使いましょう。
-  - step_number: 19
-    body: "「すぐに・直ちに」を英語で言うと？"
-    choices:
-      - body: "immediately"
-        is_correct: true
-        feedback: |-
-          正解！「すぐに・直ちに」は <b>immediately</b> です。"Please deal with it immediately."（すぐに対処してください）が定番表現。フォーマルな場面での緊急の依頼に使える副詞です。
-      - body: "instantly"
-        is_correct: false
-        feedback: |-
-          惜しい！緊急の対処を求める文脈では <b>immediately</b> が最も適切です。"instantly" は「瞬時に・即座に」という意味でより瞬間的なニュアンスがあります。ホテルへの依頼では "immediately" の方が自然です。
-      - body: "urgently"
-        is_correct: false
-        feedback: |-
-          惜しい！「すぐに（動詞を修飾する副詞）」は <b>immediately</b> が正解です。"urgently" は「緊急に」という意味で使えますが、"deal with it urgently" よりも "deal with it immediately" の方が自然な表現です。
-  - step_number: 20
-    body: "「すぐに対処していただけますか？」を英語で言うと？"
-    choices:
-      - body: "Could you deal with this immediately, please?"
-        is_correct: true
-        feedback: |-
-          正解！<b>Could you deal with this immediately, please?</b> "deal with〜" は「〜に対処する」という意味の便利なフレーズ。"deal with a problem"・"deal with a situation" のように応用できます。緊急の状況では強く、しかも丁寧に伝えましょう。
-      - body: "Can you fix this bug problem now?"
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Could you deal with this immediately, please?</b> です。"fix this bug problem" は口語的で不明確です。"deal with this"（この件に対処する）という表現の方が明確で適切です。また "Can you〜?" より "Could you〜?" の方が丁寧です。
-      - body: "Please take care of the insect problem right now."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Could you deal with this immediately, please?</b> です。"take care of〜 right now" は意味は通じますが、"Could you〜?" の疑問形の方が依頼として丁寧です。また "immediately" の方が "right now" より正式な表現です。
-  - step_number: 21
-    body: "「すぐに対処していただけますか？」を英語で言うと？"
-    choices:
-      - body: "Could you deal with this immediately, please?"
-        is_correct: true
-        feedback: |-
-          正解！<b>Could you deal with this immediately, please?</b> 問題が解決しない場合は "I'd like to speak to the manager."（マネージャーに話したい）と伝えることも大切です。自分の権利を丁寧かつ毅然と主張しましょう。
-      - body: "I need this problem to be solved immediately."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Could you deal with this immediately, please?</b> です。"I need〜 to be solved" は受動態を使った表現ですが、"deal with this"（対処する）という能動的な依頼の方がより自然です。
-      - body: "This needs to be handled as soon as possible."
-        is_correct: false
-        feedback: |-
-          惜しい！正解は <b>Could you deal with this immediately, please?</b> です。"as soon as possible"（ASAP：できるだけ早く）はメールなどの書き言葉で使います。口頭での緊急依頼には "immediately" の方が直接的で適切です。
