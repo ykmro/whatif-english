@@ -1,5 +1,8 @@
 yaml_dir = File.join(__dir__, "situations")
 
+yaml_slugs = Dir.glob(File.join(yaml_dir, "*.{yml,yaml}")).map { |f| YAML.load_file(f)["slug"] }
+Situation.where.not(slug: yaml_slugs).destroy_all
+
 Dir.glob(File.join(yaml_dir, "*.{yml,yaml}")).sort.each do |file|
   data = YAML.load_file(file)
 
