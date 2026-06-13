@@ -1,7 +1,7 @@
 class StepsController < ApplicationController
   def show
     @step = Step.find(params[:id])
-    @choices = @step.choices
+    @choices = @step.choices.order("RANDOM()")
     @total_steps = Step.where(situation_id: @step.situation_id).count
   end
 
