@@ -1,0 +1,157 @@
+slug: "prison"
+cefr: "b2"
+title: "もしも刑務所に収監されたら使える英会話"
+overview: "万が一、海外で逮捕・収監された際に、自分の権利を主張し、弁護士・領事館への連絡を求めるための英会話を学びます。"
+scenario: "旅行中に誤解や不運から拘束されてしまいました。パニックにならず、権利を冷静に主張し、適切な助けを求めるための表現を身につけましょう。"
+thumbnail: "top/situation_thum_prison.png"
+steps:
+  - step_number: 1
+    body: "「逮捕する」を英語で言うと？"
+    choices:
+      - body: "arrest"
+        is_correct: true
+        feedback: |-
+          正解！「逮捕する」は <b>arrest</b> です。"Am I under arrest?"（私は逮捕されているのですか？）は、拘束された際に真っ先に確認すべき重要フレーズ。逮捕か任意同行かで権利が大きく異なります。冷静にこの一言を発しましょう。
+      - body: "catch"
+        is_correct: false
+        feedback: |-
+          惜しい！法的な「逮捕」は <b>arrest</b> です。"catch" は「捕まえる（物理的に）」という意味で、法律用語としての逮捕には使いません。"The police arrested him."（警察は彼を逮捕した）のように "arrest" を使います。
+      - body: "detain"
+        is_correct: false
+        feedback: |-
+          惜しい！「逮捕」は <b>arrest</b> です。"detain" は「拘束する・引き留める（逮捕には至らない拘置）」という意味で、法的な逮捕とは異なります。"I've been detained."（拘束されました）も状況によって使えますが、正式な逮捕は "arrest" です。
+  - step_number: 2
+    body: "「私は逮捕されているのですか？」を英語で言うと？"
+    choices:
+      - body: "Am I under arrest?"
+        is_correct: true
+        feedback: |-
+          正解！<b>Am I under arrest?</b> この質問への答えによって、あなたの権利と対応が変わります。"Yes"→逮捕状況・黙秘権を行使。"No"→「では立ち去っていいですか？"Am I free to go?"」と続けましょう。冷静に、しかし必ず確認すべきフレーズです。
+      - body: "Why are you taking me?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Am I under arrest?</b> です。"Why are you taking me?" は感情的な印象を与えます。まず自分の法的な状況を確認することが最優先。"Am I under arrest?" で法的立場を明確にしてから行動しましょう。
+      - body: "What are you doing to me?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Am I under arrest?</b> です。"What are you doing to me?" は混乱した印象を与えます。どんな状況でも冷静さを保ち、まず "Am I under arrest?" で自分の法的状況を確認することが重要です。
+  - step_number: 3
+    body: "「弁護士」を英語で言うと？"
+    choices:
+      - body: "lawyer"
+        is_correct: true
+        feedback: |-
+          正解！「弁護士」は <b>lawyer</b> です。"I want a lawyer."（弁護士が欲しい）は逮捕時の最重要フレーズ。アメリカではこの一言で取り調べを中断させる権利（ミランダ権）があります。"attorney" も同義語として使われます。弁護士が来るまで話さない権利があります。
+      - body: "judge"
+        is_correct: false
+        feedback: |-
+          惜しい！「弁護士」は <b>lawyer</b> です。"judge" は「裁判官（法廷で判決を下す人）」のこと。取り調べや拘留時に助けを求める相手は "lawyer"（弁護士）です。"I want a lawyer." と "lawyer" の単語をしっかり覚えましょう。
+      - body: "prosecutor"
+        is_correct: false
+        feedback: |-
+          惜しい！「弁護士（自分の味方）」は <b>lawyer</b> です。"prosecutor" は「検察官（反対側：あなたを起訴する側）」のこと。自分を守ってくれる人を求める場合は "lawyer" または "defense attorney"（弁護人）と言いましょう。
+  - step_number: 4
+    body: "「弁護士を呼んでください」を英語で言うと？"
+    choices:
+      - body: "I want a lawyer."
+        is_correct: true
+        feedback: |-
+          正解！<b>I want a lawyer.</b> 逮捕・拘留時に最も重要なフレーズのひとつ。"I want a lawyer." と言った後は弁護士が到着するまで沈黙を守る権利があります。"I demand to speak to a lawyer immediately."（今すぐ弁護士と話す権利を要求します）という表現も強力です。
+      - body: "Please call a legal person."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I want a lawyer.</b> です。"legal person" は不自然な表現です。弁護士を求めるシンプルで法的に有効なフレーズは "I want a lawyer." です。この一言を必ず覚えておきましょう。
+      - body: "Get me someone who knows the law."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I want a lawyer.</b> です。遠回しな表現より "I want a lawyer." の直接的な宣言の方が法的に明確で有効です。弁護士を求める意思を明確に伝えることが重要です。
+  - step_number: 5
+    body: "「黙秘権」を英語で言うと？"
+    choices:
+      - body: "the right to remain silent"
+        is_correct: true
+        feedback: |-
+          正解！「黙秘権」は <b>the right to remain silent</b> です。アメリカでは "You have the right to remain silent."（黙秘権があります）がミランダ警告の冒頭で読み上げられます。"I'm exercising my right to remain silent."（黙秘権を行使します）と宣言すれば取り調べを拒否できます。
+      - body: "the right to be quiet"
+        is_correct: false
+        feedback: |-
+          惜しい！法律用語としての黙秘権は <b>the right to remain silent</b> です。"be quiet" は「静かにする」という意味で、法的な権利の表現としては不正確です。"remain silent"（沈黙を保つ）という法律用語をそのまま覚えましょう。
+      - body: "the right to say nothing"
+        is_correct: false
+        feedback: |-
+          惜しい！正式な法律用語は <b>the right to remain silent</b> です。意味は伝わりますが、"say nothing" は俗語的な表現です。法的な場面では正式な "remain silent" を使うことで権利を明確に行使できます。
+  - step_number: 6
+    body: "「領事館」を英語で言うと？"
+    choices:
+      - body: "consulate"
+        is_correct: true
+        feedback: |-
+          正解！「領事館」は <b>consulate</b> です。"I want to contact my consulate."（領事館に連絡したい）は海外で逮捕された際の重要フレーズ。日本人であれば日本大使館・領事館に連絡する権利があります。"embassy"（大使館）も類義語として覚えておきましょう。
+      - body: "embassy"
+        is_correct: false
+        feedback: |-
+          惜しい！「領事館」は <b>consulate</b> です。"embassy" は「大使館（首都にある）」のこと。"consulate" は地方都市に設置された「領事館」です。どちらも日本人の保護を担う機関ですが、正確には区別されます。旅先では両方の連絡先を控えておきましょう。
+      - body: "government office"
+        is_correct: false
+        feedback: |-
+          惜しい！「領事館」は <b>consulate</b> です。"government office" は「政府機関・役所」という意味の一般的な表現で、領事館を指しません。海外で逮捕された場合は "consulate" または "embassy" への連絡を要求する権利があります。
+  - step_number: 7
+    body: "「日本大使館に連絡したい」を英語で言うと？"
+    choices:
+      - body: "I want to contact the Japanese embassy."
+        is_correct: true
+        feedback: |-
+          正解！<b>I want to contact the Japanese embassy.</b> 海外で拘留された日本人には大使館・領事館への連絡を要求する権利があります。"I have the right to contact my embassy."（大使館に連絡する権利があります）という形で権利として主張することも重要です。
+      - body: "I need to call Japan."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I want to contact the Japanese embassy.</b> です。"call Japan" では誰に何のために連絡するのかが不明確です。法的な支援を求めるには "embassy"（大使館）または "consulate"（領事館）を具体的に指定しましょう。
+      - body: "Please call my family in Japan."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I want to contact the Japanese embassy.</b> です。家族への連絡も重要ですが、法的な保護という観点では大使館・領事館への連絡を最優先にしましょう。大使館が家族への連絡を手助けしてくれることもあります。
+  - step_number: 8
+    body: "「charges（チャージズ）」の意味は？"
+    choices:
+      - body: "罪状・訴因"
+        is_correct: true
+        feedback: |-
+          正解！法律用語の <b>charges</b> は「罪状・訴因（起訴された罪の内容）」です。"What are the charges against me?"（私に対する罪状は何ですか？）は拘留時に必ず確認すべきフレーズ。"charge" には「料金」という意味もありますが、警察・法廷では「罪状」の意味で使われます。
+      - body: "料金・費用"
+        is_correct: false
+        feedback: |-
+          惜しい！法律文脈での <b>charges</b> は「罪状・訴因」です。"charge" には「料金」という意味もありますが、警察・法廷の文脈では必ず「罪状」を意味します。"What are the charges?" と聞かれたら「何の罪で起訴されているか」を問われています。
+      - body: "証拠・証言"
+        is_correct: false
+        feedback: |-
+          惜しい！"charges" は「罪状・訴因」で、「証拠」ではありません。"evidence"（証拠）、"testimony"（証言）は別の法律用語です。"What are the charges against me?"（私の罪状は何ですか？）を覚えましょう。
+  - step_number: 9
+    body: "「私は無実です」を英語で言うと？"
+    choices:
+      - body: "I'm innocent."
+        is_correct: true
+        feedback: |-
+          正解！<b>I'm innocent.</b> "innocent"（無実の）は法的に重要な言葉。"I'm innocent of these charges."（私はこれらの罪状に対して無実です）のように具体的に述べることもできます。ただし、弁護士なしに多くを話すことは避け、基本は黙秘権を行使しましょう。
+      - body: "I didn't do anything."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I'm innocent.</b> です。"I didn't do anything" も意味は通じますが、"innocent"（無実）という法的な言葉を使う方が明確です。また、弁護士が到着するまでは詳しい説明を避け、"I'm innocent. I want a lawyer." のシンプルな対応が効果的です。
+      - body: "I'm not guilty."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I'm innocent.</b> です。"not guilty"（有罪でない）も法律用語ですが、法廷での無罪答弁（"I plead not guilty."）で使う表現です。日常的に無実を主張するには "I'm innocent." がより自然で直接的です。
+  - step_number: 10
+    body: "「立ち去っていいですか？（任意同行を断る）」を英語で言うと？"
+    choices:
+      - body: "Am I free to go?"
+        is_correct: true
+        feedback: |-
+          正解！<b>Am I free to go?</b> 逮捕されていない場合、この質問で立ち去る権利を確認できます。"Yes" → その場を静かに立ち去りましょう。"No" → "Am I under arrest?"（逮捕されているのですか？）と続けて法的立場を明確にしましょう。権利を知ることが身を守ることに繋がります。
+      - body: "Can I leave now?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Am I free to go?</b> です。"Can I leave now?" でも意味は通じますが、"Am I free to go?" の方が法的な権利の確認として明確な表現です。"free to go"（自由に立ち去れる状態）という表現が権利行使の文脈で強力です。
+      - body: "Should I stay here?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Am I free to go?</b> です。"Should I stay here?" は「ここにいるべきですか？」という受動的な問いかけで、権利の主張になりません。"Am I free to go?" は「立ち去る自由があるかどうか」を積極的に確認するフレーズです。

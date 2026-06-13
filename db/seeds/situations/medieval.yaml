@@ -1,0 +1,157 @@
+slug: "medieval"
+cefr: "b1"
+title: "もしも中世にタイムスリップしたら使える英会話"
+overview: "中世ヨーロッパにタイムスリップした想定で、古風な英語表現・騎士道用語・宮廷言葉などを楽しみながら学びます。現代英語との違いも解説します。"
+scenario: "気づいたら中世ヨーロッパにタイムスリップしていました！城への入り方、身分の名乗り方、助けの求め方など、サバイバルに必要な英会話を身につけましょう。"
+thumbnail: "top/situation_thum_medieval.png"
+steps:
+  - step_number: 1
+    body: "中世英語で「あなた（目上の人への二人称）」は？"
+    choices:
+      - body: "thee / thou"
+        is_correct: true
+        feedback: |-
+          正解！中世の二人称単数は <b>thee / thou</b> です。"thou"（主格：〜が）と "thee"（目的格：〜を/に）を使い分けます。"How dost thou fare?"（ご機嫌いかが？）のように使いました。現代英語の "you" は元々複数形または敬称でしたが、徐々に全ての二人称に使われるようになりました。
+      - body: "ye"
+        is_correct: false
+        feedback: |-
+          惜しい！中世の二人称単数は <b>thou / thee</b> です。"ye" は複数形の主格「あなたたち」を意味します。"Hear ye, hear ye!"（皆の者、聞け！）は複数の聴衆への呼びかけ。一人に話しかける場合は "thou"（主格）/ "thee"（目的格）を使いました。
+      - body: "thy"
+        is_correct: false
+        feedback: |-
+          惜しい！"thy" は <b>所有格（あなたの）</b> です。"thy sword"（あなたの剣）のように使います。二人称の格変化をまとめると：主格 "thou"、所有格 "thy / thine"、目的格 "thee" です。現代英語の "you / your / you" に対応しています。
+  - step_number: 2
+    body: "「騎士」を英語で言うと？"
+    choices:
+      - body: "knight"
+        is_correct: true
+        feedback: |-
+          正解！「騎士」は <b>knight</b> です。"Sir"（サー）という敬称がつき、"Sir Lancelot"（サー・ランスロット）のように呼ばれました。"knight"の動詞形は "to knight"（騎士に叙する）。"I dub thee knight."（汝を騎士に叙す）が叙任式の定番フレーズです。
+      - body: "warrior"
+        is_correct: false
+        feedback: |-
+          惜しい！「（西洋の）騎士」は <b>knight</b> です。"warrior" は「戦士（文化・時代を問わない）」という広い意味の言葉。中世ヨーロッパの騎士道（chivalry）に基づく特定の地位を持つ者は "knight" と呼びます。
+      - body: "soldier"
+        is_correct: false
+        feedback: |-
+          惜しい！「騎士」は <b>knight</b> です。"soldier" は「兵士（一般）」のこと。騎士は馬に乗り、封建的主従関係の中で特別な地位を持つ存在で、一般兵士とは区別されました。"knight" という単語を使いましょう。
+  - step_number: 3
+    body: "「城」を英語で言うと？"
+    choices:
+      - body: "castle"
+        is_correct: true
+        feedback: |-
+          正解！「城」は <b>castle</b> です。"Take me to your castle."（城まで連れて行ってください）が使えます。城の構造も覚えておくと便利：城壁は "walls"、塔は "tower"、堀は "moat"、跳ね橋は "drawbridge"、玄関門は "gatehouse" です。
+      - body: "palace"
+        is_correct: false
+        feedback: |-
+          惜しい！軍事的な「城」は <b>castle</b> です。"palace" は「宮殿（豪華な居住施設）」のこと。城は防衛目的で設計された "castle"、王族の華麗な住まいは "palace" と使い分けましょう。中世の防衛拠点は "castle" です。
+      - body: "fortress"
+        is_correct: false
+        feedback: |-
+          惜しい！中世の「城」は <b>castle</b> が最も一般的です。"fortress" は「要塞（より大規模・純粋に軍事的）」という意味で、城とは若干異なります。居住機能を持つ中世の城は "castle" と言いましょう。
+  - step_number: 4
+    body: "「王様」への呼びかけ方は？"
+    choices:
+      - body: "Your Majesty"
+        is_correct: true
+        feedback: |-
+          正解！王・女王への敬称は <b>Your Majesty</b>（陛下）です。"Your Majesty, I come seeking aid."（陛下、助けを求めて参りました）のように使います。王子・王女には "Your Highness"（殿下）、騎士・貴族には "My Lord / My Lady"（閣下・奥方）を使い分けましょう。
+      - body: "Your Highness"
+        is_correct: false
+        feedback: |-
+          惜しい！王・女王への敬称は <b>Your Majesty</b>（陛下）です。"Your Highness"（殿下）は王子・王女・格下の貴族への敬称。王様に "Your Highness" と言うと失礼になる場合があります。"Your Majesty" が王族の最高敬称と覚えましょう。
+      - body: "Your Excellence"
+        is_correct: false
+        feedback: |-
+          惜しい！王への敬称は <b>Your Majesty</b> です。"Your Excellency"（閣下）は大使・総督などへの敬称です（"Excellence" ではなく "Excellency" が正しいスペルです）。王には "Your Majesty"、外交官・高官には "Your Excellency" を使い分けましょう。
+  - step_number: 5
+    body: "中世的な「助けてください！」の表現は？"
+    choices:
+      - body: "I beseech thee, help me!"
+        is_correct: true
+        feedback: |-
+          正解！<b>I beseech thee, help me!</b>（どうかお助けを！）"beseech"（懇願する）は中世・古典英語の丁寧な懇願表現です。現代では "I beg you" や "Please help me" に相当します。"I beseech thee" はシェイクスピア作品にも頻出する表現です。
+      - body: "Please help me!"
+        is_correct: false
+        feedback: |-
+          惜しい！現代英語としては正しいですが、中世の英会話では <b>I beseech thee, help me!</b> の方が時代考証的です。"beseech"（懇願する）、"thee"（あなたに）という古英語を使うことで、中世の人々に自然に伝わります。
+      - body: "Assist me now!"
+        is_correct: false
+        feedback: |-
+          惜しい！中世の懇願表現は <b>I beseech thee, help me!</b> です。"Assist me now!" は命令口調で無礼な印象を与えます。特に相手が騎士や貴族の場合、丁寧な懇願表現が身を守ることに繋がります。
+  - step_number: 6
+    body: "「食べ物と宿を提供してください」を中世風に言うと？"
+    choices:
+      - body: "I seek food and shelter."
+        is_correct: true
+        feedback: |-
+          正解！<b>I seek food and shelter.</b>（食料と宿を求めております）"seek"（求める・探す）は現代でも使いますが、中世風の丁寧な表現として自然です。"shelter"（シェルター・宿・避難場所）は "lodging"（宿泊）とも言えます。旅人として城や修道院の門をたたく際の定番フレーズです。
+      - body: "Give me food and a room."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I seek food and shelter.</b> です。"Give me〜" は命令口調で、中世では非常に無礼です。見知らぬ土地で助けを求める旅人は謙虚に "I seek〜"（〜を求めております）と言う方が、歓迎されやすいでしょう。
+      - body: "I need something to eat and sleep."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I seek food and shelter.</b> です。意味は通じますが、"I seek〜" の方が中世風の格調ある表現です。"seek"（求める・探し求める）は古風で丁寧なニュアンスを持ち、中世の文脈に自然に溶け込みます。
+  - step_number: 7
+    body: "「剣」を英語で言うと？"
+    choices:
+      - body: "sword"
+        is_correct: true
+        feedback: |-
+          正解！「剣」は <b>sword</b>（発音：ソード、"w" は黙字）です。"Lower your sword!"（剣を収めよ！）、"He who lives by the sword dies by the sword."（剣を取る者は剣で滅びる）のような表現もあります。騎士の武器として最も重要な単語です。
+      - body: "blade"
+        is_correct: false
+        feedback: |-
+          惜しい！「剣」は <b>sword</b> です。"blade" は「刃（刃物全般の切れる部分）」を指します。"blade" は剣の一部（刃の部分）ですが、剣全体を指す場合は "sword" が正確です。"The sword has a sharp blade."（その剣は刃が鋭い）のように使い分けます。
+      - body: "dagger"
+        is_correct: false
+        feedback: |-
+          惜しい！「剣」は <b>sword</b> です。"dagger" は「短剣・ダガー（短くて刺す武器）」のこと。長い両刃の武器は "sword"、短い刃物は "dagger" または "knife" と区別されます。
+  - step_number: 8
+    body: "「魔女だ！」を英語で言うと？（中世の魔女裁判を想定して）"
+    choices:
+      - body: "She's a witch!"
+        is_correct: true
+        feedback: |-
+          正解！<b>She's a witch!</b> 中世では魔女の告発は命取りでした。現代では "witch hunt"（魔女狩り）が「不当な迫害・攻撃」の比喩として使われます。"witch"（魔女）、"wizard"（男性の魔法使い）、"sorcerer"（魔術師）も合わせて覚えておきましょう。身に覚えのない告発を受けたら "I am no witch!"（私は魔女ではない！）と反論しましょう。
+      - body: "She's magical!"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>She's a witch!</b> です。"magical" は「魔法のような・素晴らしい（現代では肯定的）」という意味で、中世の魔女告発としては伝わりません。中世の文脈では "witch"（魔女）という直接的な言葉が使われました。
+      - body: "Beware, she casts spells!"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>She's a witch!</b> です。"cast spells"（呪文をかける）も関連表現ですが、告発の際のシンプルな表現は "She's a witch!" です。"Beware〜" は「気をつけよ」という警告表現として覚えておきましょう。
+  - step_number: 9
+    body: "「私は未来から来ました」を英語で言うと？"
+    choices:
+      - body: "I have come from the future."
+        is_correct: true
+        feedback: |-
+          正解！<b>I have come from the future.</b> "have come"（来た）は現在完了で、「旅を経て今ここにいる」というニュアンス。中世の人々に信じてもらえるかは別として、正確な英語表現です。現代風に "I'm from the future." と言っても伝わりますが、中世風の格調には "have come" が合っています。
+      - body: "I came from tomorrow."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I have come from the future.</b> です。"from tomorrow"（明日から）は意味が不明瞭です。「未来」は "the future" という名詞で表します。"from the future" で「未来の時代から」という意味になります。
+      - body: "I traveled through time."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I have come from the future.</b> です。"I traveled through time" は「タイムトラベルした」という説明になりますが、出身を伝えるには "I have come from the future." の方が端的です。信じてもらうには別の証拠が必要になるでしょうが…。
+  - step_number: 10
+    body: "中世風の別れの言葉は？"
+    choices:
+      - body: "Fare thee well."
+        is_correct: true
+        feedback: |-
+          正解！<b>Fare thee well.</b>（ご機嫌よう・良い旅を）"fare"（過ごす・やっていく）は古語で、"How do you fare?"（ご機嫌いかが？）としても使われました。現代の "Farewell!"（さようなら）はここから来ています。"Godspeed."（神のご加護を）も中世風の別れの言葉として覚えておきましょう。
+      - body: "Goodbye!"
+        is_correct: false
+        feedback: |-
+          惜しい！中世風の別れは <b>Fare thee well.</b> です。"Goodbye" は "God be with ye"（神があなたとともにあらんことを）が短縮されたものですが、現代的な響きがあります。中世ヨーロッパの雰囲気を出すなら "Fare thee well." や "Godspeed." を使いましょう。
+      - body: "See you later!"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Fare thee well.</b> です。"See you later!" は完全に現代的なカジュアル表現。中世の人々には意味が通じないかもしれません。"Fare thee well."（ご健勝を）や "God be with you."（神のご加護を）が時代に合った別れの言葉です。

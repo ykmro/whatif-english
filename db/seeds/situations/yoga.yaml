@@ -1,0 +1,157 @@
+slug: "yoga"
+cefr: "a2"
+title: "海外でヨガを習うときに使える英会話"
+overview: "英語のヨガクラスで先生の指示を理解し、自分の状態を伝えるための英会話を学びます。inhale / exhale / extend / bend など頻出ワードをマスターしましょう。"
+scenario: "海外のヨガスタジオや旅行先のリゾートヨガクラスに参加しました。先生の英語の指示を聞き取り、困ったときに質問・説明できる表現を身につけましょう。"
+thumbnail: "top/situation_thum_yoga.png"
+steps:
+  - step_number: 1
+    body: "「息を吸う」を英語で言うと？"
+    choices:
+      - body: "inhale"
+        is_correct: true
+        feedback: |-
+          正解！「息を吸う」は <b>inhale</b> です。ヨガクラスでは "Inhale deeply."（深く息を吸って）のように頻繁に使われます。"in"（中へ）＋"hale"（呼吸する）で「内側に息を入れる」イメージ。反対語の "exhale"（息を吐く）とセットで覚えましょう。
+      - body: "breathe in"
+        is_correct: false
+        feedback: |-
+          惜しい！「息を吸う」のヨガ用語は <b>inhale</b> です。"breathe in" も同じ意味で日常会話では使いますが、ヨガ・ピラティス・瞑想クラスでは "inhale" が標準用語です。クラスで先生が言う言葉を理解するために "inhale" を覚えましょう。
+      - body: "inspire"
+        is_correct: false
+        feedback: |-
+          惜しい！「息を吸う」のヨガ用語は <b>inhale</b> です。"inspire" は医学・詩的な文脈で「吸気する」という意味もありますが、ヨガクラスでは使われません。"inhale / exhale" のペアをしっかり覚えましょう。
+  - step_number: 2
+    body: "「息を吐く」を英語で言うと？"
+    choices:
+      - body: "exhale"
+        is_correct: true
+        feedback: |-
+          正解！「息を吐く」は <b>exhale</b> です。"Exhale slowly and relax."（ゆっくり息を吐いてリラックスして）のように使います。"ex"（外へ）＋"hale"（呼吸する）で「外側に息を出す」イメージ。"inhale（吸う）→ exhale（吐く）" のリズムを体で覚えましょう。
+      - body: "breathe out"
+        is_correct: false
+        feedback: |-
+          惜しい！「息を吐く」のヨガ用語は <b>exhale</b> です。"breathe out" も同じ意味ですが、ヨガクラスでは "exhale" が標準表現です。"Inhale as you raise your arms, exhale as you lower them."（腕を上げながら吸って、下げながら吐いて）のような指示に慣れておきましょう。
+      - body: "expire"
+        is_correct: false
+        feedback: |-
+          惜しい！「息を吐く」のヨガ用語は <b>exhale</b> です。"expire" は医学用語で「呼気する」という意味もありますが、現代英語では「期限切れになる・息を引き取る」という意味が主です。ヨガクラスでは必ず "exhale" を使います。
+  - step_number: 3
+    body: "「伸ばす・伸びる」を英語で言うと？"
+    choices:
+      - body: "extend"
+        is_correct: true
+        feedback: |-
+          正解！「伸ばす」は <b>extend</b> です。"Extend your arms overhead."（腕を頭上に伸ばして）のように使います。"extend your leg"（脚を伸ばす）、"extend your spine"（背骨を伸ばす）など体の各部位と組み合わせて使いましょう。"stretch"（ストレッチする）も近い意味で頻出です。
+      - body: "expand"
+        is_correct: false
+        feedback: |-
+          惜しい！体を「伸ばす」ヨガ用語は <b>extend</b> です。"expand" は「広げる・膨張させる」という意味で、"Expand your chest."（胸を広げて）のように使いますが、四肢を伸ばす指示には "extend" が正確です。
+      - body: "stretch out"
+        is_correct: false
+        feedback: |-
+          惜しい！ヨガクラスでの「伸ばす」指示は <b>extend</b> が標準です。"stretch out" も日常的に使いますが、ヨガのインストラクターが使う専門用語としては "extend" の方が一般的です。両方を覚えておくと安心です。
+  - step_number: 4
+    body: "「曲げる」を英語で言うと？"
+    choices:
+      - body: "bend"
+        is_correct: true
+        feedback: |-
+          正解！「曲げる」は <b>bend</b> です。"Bend your knees slightly."（膝を少し曲げて）、"Bend forward from the hips."（腰から前に折り曲げて）のように使います。"bend" は体のあらゆる部位を曲げる動作に使える万能ワードです。
+      - body: "fold"
+        is_correct: false
+        feedback: |-
+          惜しい！「曲げる」は <b>bend</b> です。"fold" は「折り畳む」という意味で、ヨガでは前屈のポーズを "Forward Fold"（前屈）と呼ぶことがありますが、体を曲げる動作の一般的な指示には "bend" を使います。
+      - body: "curve"
+        is_correct: false
+        feedback: |-
+          惜しい！「体を曲げる」ヨガ指示は <b>bend</b> が最適です。"curve" は「カーブを描く・弧を描く」という意味で、ヨガでは "Curve your spine."（背骨をアーチさせて）のような特定の表現で使います。一般的な「曲げる」には "bend" を使いましょう。
+  - step_number: 5
+    body: "「体幹・コア」を英語で言うと？"
+    choices:
+      - body: "core"
+        is_correct: true
+        feedback: |-
+          正解！「体幹」は <b>core</b> です。"Engage your core."（体幹を使って・引き締めて）はヨガ・ピラティスで最頻出のフレーズ。"core muscles"（体幹筋肉）、"core strength"（体幹の強さ）とも使います。"engage"（使う・引き締める）とセットで覚えましょう。
+      - body: "center"
+        is_correct: false
+        feedback: |-
+          惜しい！「体幹（筋肉）」は <b>core</b> が正解です。"center" は「中心・センター」という意味で、ヨガでは "Find your center."（自分の中心を見つけて）のような精神的な意味で使います。体幹の筋肉を指す解剖学的な言葉は "core" です。
+      - body: "trunk"
+        is_correct: false
+        feedback: |-
+          惜しい！ヨガクラスでの「体幹」は <b>core</b> です。"trunk" は解剖学的に「体幹」を意味しますが、ヨガ・フィットネスの現場では "core" が標準用語です。"Engage your core." をそのまま覚えましょう。
+  - step_number: 6
+    body: "「このポーズをやめて休んでいいですか？」を英語で言うと？"
+    choices:
+      - body: "May I take a rest from this pose?"
+        is_correct: true
+        feedback: |-
+          正解！<b>May I take a rest from this pose?</b> "May I〜?" は丁寧な許可の依頼。ヨガでは無理をしないことが大切です。"I need to take a break."（少し休憩が必要です）や "I'll sit this one out."（このポーズはお休みします）も覚えておきましょう。
+      - body: "I want to stop."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>May I take a rest from this pose?</b> です。"I want to stop" は「やめたい」という直接的な表現。ヨガクラスでは "take a rest"（休む）や "take a child's pose"（チャイルドポーズを取る）のような表現が自然です。
+      - body: "This is too hard for me."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>May I take a rest from this pose?</b> です。状況説明としては正しいですが、許可を求める表現ではありません。説明と依頼を組み合わせて "This is too hard — may I take a rest?" のように使うとより自然です。
+  - step_number: 7
+    body: "「腰を痛めています」を英語で言うと？"
+    choices:
+      - body: "I have a bad back."
+        is_correct: true
+        feedback: |-
+          正解！<b>I have a bad back.</b> "have a bad ＋ 体の部位" は怪我・持病を伝える定番表現。"I have a bad knee."（膝が悪い）、"I have a bad shoulder."（肩を痛めている）のように応用できます。クラス開始前にインストラクターに伝えておくと安全です。
+      - body: "My back is broken."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I have a bad back.</b> です。"My back is broken" は「背骨が折れている」という意味になってしまいます。筋肉痛・慢性的な腰痛・違和感には "I have a bad back." や "My back hurts." を使いましょう。
+      - body: "I injured my back yesterday."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I have a bad back.</b> です。"I injured my back yesterday" は昨日のケガを報告する表現として正しいですが、慢性的な腰痛や持病には "I have a bad back." の方が簡潔で伝わりやすいです。
+  - step_number: 8
+    body: "「チャイルドポーズ」を英語で言うと？"
+    choices:
+      - body: "Child's Pose"
+        is_correct: true
+        feedback: |-
+          正解！「チャイルドポーズ」は <b>Child's Pose</b> です。サンスクリット語では "Balasana"（バラーサナ）。"You can always come back to Child's Pose."（いつでもチャイルドポーズに戻っていいですよ）はヨガクラスで頻繁に聞く表現です。休息ポーズとして世界共通で認知されています。
+      - body: "Baby Pose"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Child's Pose</b> です。"Baby Pose" という英語名は存在しません。サンスクリット語の "Balasana"（バラ＝子ども）から来ており、英語では "Child's Pose" が標準名称です。
+      - body: "Rest Pose"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Child's Pose</b> です。チャイルドポーズは確かに休息ポーズとして使いますが、英語での正式名称は "Child's Pose" です。"Resting Pose" という表現も存在しますが、別のポーズ（屍のポーズ=Savasana）を指す場合もあります。
+  - step_number: 9
+    body: "「深呼吸してください」を英語で言うと？"
+    choices:
+      - body: "Take a deep breath."
+        is_correct: true
+        feedback: |-
+          正解！<b>Take a deep breath.</b> ヨガだけでなく、日常生活でも「一息ついて・落ち着いて」という意味で使える表現です。"Take three deep breaths."（深呼吸を3回して）のように数を加えることもできます。
+      - body: "Breathe very deeply."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Take a deep breath.</b> です。意味は通じますが、"Take a deep breath" がヨガ・瞑想・日常会話で最もよく使われる定番表現です。"take a breath"（一息つく）という慣用句の形で覚えましょう。
+      - body: "Do a breathing exercise."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Take a deep breath.</b> です。"breathing exercise" は「呼吸法・呼吸練習」を指す名詞句で、指示として使うには不自然です。"Take a deep breath." のシンプルな命令文を覚えましょう。
+  - step_number: 10
+    body: "「このポーズの名前は何ですか？」を英語で言うと？"
+    choices:
+      - body: "What is this pose called?"
+        is_correct: true
+        feedback: |-
+          正解！<b>What is this pose called?</b> "What is 〜 called?"（〜は何と言いますか？）は名前を尋ねる万能フレーズ。ヨガ以外でも道具・食べ物・場所など名前がわからないものに広く使えます。"How do you call this pose?" は誤りなので注意しましょう。
+      - body: "What do you call this?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>What is this pose called?</b> です。"What do you call this?" も意味は通じますが、"What is this called?" の方がより自然で一般的な表現です。"called"（〜と呼ばれる）という受動態の形を覚えましょう。
+      - body: "What's the name of this position?"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>What is this pose called?</b> です。"What's the name of〜?" も文法的に正しいですが、ヨガの世界では動作・姿勢を "pose"（ポーズ）と呼ぶのが一般的です。"position" より "pose" を使う方が自然です。

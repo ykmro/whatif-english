@@ -1,0 +1,157 @@
+slug: "hotel-trouble"
+cefr: "b1"
+title: "ホテルでトラブルに見舞われたら使える英会話"
+overview: "海外のホテルで水漏れ・盗難・騒音などのトラブルに遭ったとき、フロントへの報告・交渉・クレームに使える英会話を学びます。"
+scenario: "チェックインしたホテルの部屋でトラブルが発生しました。泣き寝入りせず、状況を正確に伝えて解決を求めるための表現を身につけましょう。"
+thumbnail: "top/situation_thum_hotel_trouble.png"
+steps:
+  - step_number: 1
+    body: "「水漏れ」を英語で言うと？"
+    choices:
+      - body: "leak"
+        is_correct: true
+        feedback: |-
+          正解！「水漏れ」は <b>leak</b> です。"There's a leak in my room."（部屋で水漏れがあります）が定番表現。天井・パイプ・蛇口など場所を問わず使えます。動詞としても "The pipe is leaking."（パイプが水漏れしています）のように使えます。
+      - body: "flood"
+        is_correct: false
+        feedback: |-
+          惜しい！「水漏れ」は <b>leak</b> です。"flood" は「洪水・浸水（大規模な水害）」のこと。水漏れのような小規模な水の問題には "leak" が正確です。ただし部屋が水浸しになった場合は "My room is flooded." も使えます。
+      - body: "drip"
+        is_correct: false
+        feedback: |-
+          惜しい！「水漏れ全般」には <b>leak</b> が最適です。"drip" は「ポタポタ垂れる（一滴ずつ）」という意味で、より細かい描写に使います。水漏れをフロントに報告する際は "leak" の方が状況を端的に伝えられます。
+  - step_number: 2
+    body: "「天井から水漏れしています」を英語で言うと？"
+    choices:
+      - body: "Water is leaking from the ceiling."
+        is_correct: true
+        feedback: |-
+          正解！<b>Water is leaking from the ceiling.</b> 現在進行形で「今まさに起きている」ことを強調できます。場所を変えれば応用可能："from the bathroom pipe"（バスルームのパイプから）、"from the air conditioner"（エアコンから）。
+      - body: "The ceiling is broken."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Water is leaking from the ceiling.</b> です。"broken" は「壊れている」という意味ですが、水漏れの状況は伝わりません。具体的に何が起きているかを伝える "leaking" を使いましょう。
+      - body: "There is water on my ceiling."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Water is leaking from the ceiling.</b> です。"There is water on my ceiling" は「天井に水がある」という静的な表現で、水漏れが進行中であることが伝わりにくいです。"leaking"（漏れている）で緊急性を伝えましょう。
+  - step_number: 3
+    body: "「部屋を変えてもらえますか？」を英語で言うと？"
+    choices:
+      - body: "Could I change to a different room?"
+        is_correct: true
+        feedback: |-
+          正解！<b>Could I change to a different room?</b> "Could I〜?" は丁寧な依頼の定番構文。"I'd like to be moved to another room."（別の部屋に移動させてください）という言い方もあります。問題が深刻な場合は毅然と要求しましょう。
+      - body: "I want another room."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Could I change to a different room?</b> です。"I want〜" は意味は通じますが、直接的すぎて失礼な印象を与えることがあります。"Could I〜?" や "I'd like to〜" で丁寧に伝えましょう。
+      - body: "Please give me a new room."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>Could I change to a different room?</b> です。"Please give me〜" も命令口調になりがちです。ホテルスタッフへの依頼には "Could I〜?" や "I'd like〜" を使うと丁寧で好印象です。
+  - step_number: 4
+    body: "「盗難」を英語で言うと？"
+    choices:
+      - body: "theft"
+        is_correct: true
+        feedback: |-
+          正解！「盗難」は <b>theft</b> です。"I'd like to report a theft."（盗難を届け出たいのですが）がホテルや警察での定番表現。"theft"（盗難行為）、"stolen"（盗まれた状態）、"thief"（泥棒）とセットで覚えましょう。
+      - body: "robbery"
+        is_correct: false
+        feedback: |-
+          惜しい！ホテルでの「盗難届」には <b>theft</b> が適切です。"robbery" は「強盗（暴力・脅しを伴う）」を指します。気づいたら財布がなくなっていたような場合は "theft"（窃盗）が正確です。
+      - body: "missing"
+        is_correct: false
+        feedback: |-
+          惜しい！「盗難」は <b>theft</b> です。"missing" は「紛失・行方不明」で、盗まれたのか落としたのかわからない場合に使います。明らかに盗まれたと判断できる場合は "theft" または "stolen" を使いましょう。
+  - step_number: 5
+    body: "「財布が盗まれました」を英語で言うと？"
+    choices:
+      - body: "My wallet has been stolen."
+        is_correct: true
+        feedback: |-
+          正解！<b>My wallet has been stolen.</b> 現在完了の受動態で「（今の時点で）盗まれた状態だ」という深刻さを伝えられます。"stolen" は "steal（盗む）" の過去分詞。パスポート・カメラ・スマートフォンなど "My 〜 has been stolen." で応用できます。
+      - body: "I lost my wallet."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>My wallet has been stolen.</b> です。"I lost my wallet" は「財布を失くした（自分の不注意）」というニュアンスになります。盗難の場合は "stolen"（盗まれた）を使って意図的な犯罪であることを明確に伝えましょう。
+      - body: "Someone took my wallet."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>My wallet has been stolen.</b> です。"Someone took〜" も意味は通じますが、"stolen" という法律用語を使う方が警察やホテルへの届け出として正確で信頼性が高まります。
+  - step_number: 6
+    body: "「騒音」を英語で言うと？"
+    choices:
+      - body: "noise"
+        is_correct: true
+        feedback: |-
+          正解！「騒音」は <b>noise</b> です。"There's too much noise from the next room."（隣の部屋の騒音がひどいです）が定番表現。形容詞 "noisy"（うるさい）も合わせて覚えましょう。"loud"（大きな音）も同様の場面で使えます。
+      - body: "sound"
+        is_correct: false
+        feedback: |-
+          惜しい！「迷惑な騒音」は <b>noise</b> が適切です。"sound" は中立的な「音」全般を指します。不快・迷惑な音には "noise" を使いましょう。"That's a nice sound."（良い音ですね）vs "That noise is bothering me."（その騒音が迷惑です）で使い分けを覚えましょう。
+      - body: "voice"
+        is_correct: false
+        feedback: |-
+          惜しい！「騒音」は <b>noise</b> です。"voice" は「声（人間の）」を指す言葉。隣の部屋からの声・音楽・ドア音など複合的な騒音には "noise" が適切です。
+  - step_number: 7
+    body: "「隣の部屋がうるさくて眠れません」を英語で言うと？"
+    choices:
+      - body: "I can't sleep because of the noise from the next room."
+        is_correct: true
+        feedback: |-
+          正解！<b>I can't sleep because of the noise from the next room.</b> "because of〜"（〜が原因で）で理由を明確に伝えられます。"The guests next door are being very loud."（隣の宿泊客がとてもうるさい）という言い方もフロントへの説明に有効です。
+      - body: "The next room is very loud."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I can't sleep because of the noise from the next room.</b> です。状況説明としては正しいですが、自分への影響（眠れない）を加えることでフロントに緊急性が伝わりやすくなります。
+      - body: "Please make them quiet."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>I can't sleep because of the noise from the next room.</b> です。"Please make them quiet" は命令口調で状況説明もありません。まず状況を伝えてから対応を求めるのが自然な流れです。
+  - step_number: 8
+    body: "「返金」を英語で言うと？"
+    choices:
+      - body: "refund"
+        is_correct: true
+        feedback: |-
+          正解！「返金」は <b>refund</b> です。"I'd like a refund."（返金をお願いしたいのですが）が定番表現。動詞としても "Could you refund my money?"（返金していただけますか？）のように使えます。深刻なトラブルでは毅然と要求しましょう。
+      - body: "discount"
+        is_correct: false
+        feedback: |-
+          惜しい！「返金」は <b>refund</b> です。"discount" は「割引（最初から価格を下げる）」のこと。すでに支払ったお金を返してもらう場合は "refund" を使いましょう。トラブルの程度によって "discount" か "refund" を使い分けることもできます。
+      - body: "reward"
+        is_correct: false
+        feedback: |-
+          惜しい！「返金」は <b>refund</b> です。"reward" は「報酬・ご褒美」という意味で、返金とは全く異なります。ホテルのトラブルで支払済みの料金を返してもらう場合は "refund" を使いましょう。
+  - step_number: 9
+    body: "「エアコンが壊れています」を英語で言うと？"
+    choices:
+      - body: "The air conditioner isn't working."
+        is_correct: true
+        feedback: |-
+          正解！<b>The air conditioner isn't working.</b> "isn't working"（機能していない）は機械・設備のトラブルに幅広く使える表現です。"The TV isn't working."（テレビが壊れています）、"The hot water isn't working."（お湯が出ません）のように応用できます。
+      - body: "The air conditioner is broken."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>The air conditioner isn't working.</b> です。"broken"（壊れた）も正しい表現ですが、"isn't working"（動いていない）の方がより口語的で自然です。どちらも伝わりますが、"isn't working" を優先して覚えましょう。
+      - body: "The air conditioner doesn't work well."
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>The air conditioner isn't working.</b> です。"doesn't work well"（うまく動かない）は部分的な不具合のニュアンスになります。全く機能しない場合は "isn't working" でゼロの状態を明確に伝えましょう。
+  - step_number: 10
+    body: "「フロントに電話をかける」を英語で言うと？"
+    choices:
+      - body: "call the front desk"
+        is_correct: true
+        feedback: |-
+          正解！「フロントに電話する」は <b>call the front desk</b> です。"I'll call the front desk right away."（すぐにフロントに電話します）が定番表現。"front desk" はホテルのフロント受付のこと。"reception" も同じ意味で使えます。トラブル時は迷わず連絡しましょう。
+      - body: "call the reception room"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>call the front desk</b> です。"reception room" は「応接室」のことで、ホテルのフロントとは異なります。ホテルの受付は "front desk" または "reception"（reception counter）と言いましょう。
+      - body: "call the hotel manager"
+        is_correct: false
+        feedback: |-
+          惜しい！正解は <b>call the front desk</b> です。トラブルの第一報はまず "front desk"（フロント）へ。問題が解決しない場合に "I'd like to speak to the manager."（支配人に話したいのですが）とエスカレーションするのが自然な流れです。

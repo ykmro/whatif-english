@@ -1,6 +1,6 @@
 yaml_dir = File.join(__dir__, "situations")
 
-Dir.glob(File.join(yaml_dir, "*.yml")).sort.each do |file|
+Dir.glob(File.join(yaml_dir, "*.{yml,yaml}")).sort.each do |file|
   data = YAML.load_file(file)
 
   # find_or_initialize_by : 条件を指定して初めの1件を取得し1件もなければ作成
