@@ -70,6 +70,8 @@
   /* Choice speaker button speaking state */
   .choice-speaker.is-speaking {
     color: #FF3B30;
-    transform: scale(1.25);
+    --tw-scale-x: 1.25;
+    --tw-scale-y: 1.25;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 }

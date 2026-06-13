@@ -27,7 +27,7 @@
                 <%= log.loggable_type %>
               </p>
               <p class="font-bold text-gray-900 dark:text-white text-base">
-                <%= log.loggable.title %>
+                <%= link_to log.loggable.title, situation_path(log.loggable) %>
               </p>
               <p class="text-xs text-gray-400 dark:text-gray-500 mt-1">
                 <%= l(log.studied_at) %>
