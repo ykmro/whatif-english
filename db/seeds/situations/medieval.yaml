@@ -1,157 +1,157 @@
 slug: "medieval"
 cefr: "b1"
-title: "もしも中世にタイムスリップしたら使える英会話"
-overview: "中世ヨーロッパにタイムスリップした想定で、古風な英語表現・騎士道用語・宮廷言葉などを楽しみながら学びます。現代英語との違いも解説します。"
-scenario: "気づいたら中世ヨーロッパにタイムスリップしていました！城への入り方、身分の名乗り方、助けの求め方など、サバイバルに必要な英会話を身につけましょう。"
+title: "中世にタイムスリップしたら使える英会話"
+overview: "中世ヨーロッパにタイムスリップした想定で、場所・時間・助けの求め方など、サバイバルに必要な現代英語表現を楽しみながら学びます。"
+scenario: "気づいたら中世ヨーロッパにタイムスリップしていました！場所の確認、年号の確認、道の聞き方など、現代英語でサバイバルに必要な英会話を身につけましょう。"
 thumbnail: "top/situation_thum_medieval.png"
 steps:
   - step_number: 1
-    body: "中世英語で「あなた（目上の人への二人称）」は？"
+    body: "「ここはどこですか？」を英語で言うと？"
     choices:
-      - body: "thee / thou"
+      - body: "Where am I?"
         is_correct: true
         feedback: |-
-          正解！中世の二人称単数は <b>thee / thou</b> です。"thou"（主格：〜が）と "thee"（目的格：〜を/に）を使い分けます。"How dost thou fare?"（ご機嫌いかが？）のように使いました。現代英語の "you" は元々複数形または敬称でしたが、徐々に全ての二人称に使われるようになりました。
-      - body: "ye"
+          正解！<b>Where am I?</b> は「ここはどこですか？」の最もシンプルで自然な表現です。場所が分からないときに咄嗟に使えます。"Where is this place?"（ここはどんな場所ですか？）や "What is this place?"（ここは何というところですか？）も同様の場面で使えます。
+      - body: "Where is here?"
         is_correct: false
         feedback: |-
-          惜しい！中世の二人称単数は <b>thou / thee</b> です。"ye" は複数形の主格「あなたたち」を意味します。"Hear ye, hear ye!"（皆の者、聞け！）は複数の聴衆への呼びかけ。一人に話しかける場合は "thou"（主格）/ "thee"（目的格）を使いました。
-      - body: "thy"
+          惜しい！"Where is here?" は英語として不自然です。「ここはどこ？」と聞くときは <b>Where am I?</b> が正しい表現です。"here"（ここ）は場所を指す副詞なので、"Where is here?" とは言いません。
+      - body: "What place is this?"
         is_correct: false
         feedback: |-
-          惜しい！"thy" は <b>所有格（あなたの）</b> です。"thy sword"（あなたの剣）のように使います。二人称の格変化をまとめると：主格 "thou"、所有格 "thy / thine"、目的格 "thee" です。現代英語の "you / your / you" に対応しています。
+          惜しい！意味は通じますが、咄嗟に使うなら <b>Where am I?</b> の方が自然です。"What place is this?" はやや古風・文語的な響きがあります。現代英語では "Where am I?" または "Where is this?" が一般的です。
   - step_number: 2
-    body: "「騎士」を英語で言うと？"
+    body: "「今は西暦何年ですか？」を英語で言うと？"
     choices:
-      - body: "knight"
+      - body: "What year is it?"
         is_correct: true
         feedback: |-
-          正解！「騎士」は <b>knight</b> です。"Sir"（サー）という敬称がつき、"Sir Lancelot"（サー・ランスロット）のように呼ばれました。"knight"の動詞形は "to knight"（騎士に叙する）。"I dub thee knight."（汝を騎士に叙す）が叙任式の定番フレーズです。
-      - body: "warrior"
+          正解！<b>What year is it?</b> は「今は何年ですか？」のシンプルで自然な表現です。タイムスリップでなくても、年号を確認したいときに使えます。"What's today's date?"（今日は何日ですか？）や "What month is it?"（今は何月ですか？）も関連表現として覚えておきましょう。
+      - body: "Which year are we?"
         is_correct: false
         feedback: |-
-          惜しい！「（西洋の）騎士」は <b>knight</b> です。"warrior" は「戦士（文化・時代を問わない）」という広い意味の言葉。中世ヨーロッパの騎士道（chivalry）に基づく特定の地位を持つ者は "knight" と呼びます。
-      - body: "soldier"
+          惜しい！"Which year are we?" は英語として不自然です。「今は何年？」は <b>What year is it?</b> が正しい表現です。"What" を使って「何年か」を尋ねましょう。
+      - body: "What is the year now?"
         is_correct: false
         feedback: |-
-          惜しい！「騎士」は <b>knight</b> です。"soldier" は「兵士（一般）」のこと。騎士は馬に乗り、封建的主従関係の中で特別な地位を持つ存在で、一般兵士とは区別されました。"knight" という単語を使いましょう。
+          惜しい！意味は伝わりますが、自然な英語は <b>What year is it?</b> です。"What is the year now?" は語順が不自然でぎこちない印象を与えます。シンプルに "What year is it?" と覚えましょう。
   - step_number: 3
-    body: "「城」を英語で言うと？"
+    body: "「街はどちらへ行けばつきますか？」を英語で言うと？"
     choices:
-      - body: "castle"
+      - body: "Which way is the town?"
         is_correct: true
         feedback: |-
-          正解！「城」は <b>castle</b> です。"Take me to your castle."（城まで連れて行ってください）が使えます。城の構造も覚えておくと便利：城壁は "walls"、塔は "tower"、堀は "moat"、跳ね橋は "drawbridge"、玄関門は "gatehouse" です。
-      - body: "palace"
+          正解！<b>Which way is the town?</b> は「街はどちらの方向ですか？」というシンプルで使いやすい表現です。"Which way is the castle?"（城はどちらですか？）のように目的地を入れ替えると応用できます。"How do I get to the town?"（街へはどう行けばいいですか？）も同じ場面で使える便利な表現です。
+      - body: "Where should I go for the town?"
         is_correct: false
         feedback: |-
-          惜しい！軍事的な「城」は <b>castle</b> です。"palace" は「宮殿（豪華な居住施設）」のこと。城は防衛目的で設計された "castle"、王族の華麗な住まいは "palace" と使い分けましょう。中世の防衛拠点は "castle" です。
-      - body: "fortress"
+          惜しい！意味は通じますが、自然な英語は <b>Which way is the town?</b> です。道を尋ねるときは "Which way is〜?"（〜はどちらですか？）や "How do I get to〜?"（〜へはどう行きますか？）がよく使われます。
+      - body: "Town is which direction?"
         is_correct: false
         feedback: |-
-          惜しい！中世の「城」は <b>castle</b> が最も一般的です。"fortress" は「要塞（より大規模・純粋に軍事的）」という意味で、城とは若干異なります。居住機能を持つ中世の城は "castle" と言いましょう。
+          惜しい！語順が英語として不自然です。正しくは <b>Which way is the town?</b> です。英語の疑問文は "Which way is〜?" のように疑問詞を文頭に置きます。
   - step_number: 4
-    body: "「王様」への呼びかけ方は？"
+    body: "「助けてください！」を英語で言うと？"
     choices:
-      - body: "Your Majesty"
+      - body: "Help me, please!"
         is_correct: true
         feedback: |-
-          正解！王・女王への敬称は <b>Your Majesty</b>（陛下）です。"Your Majesty, I come seeking aid."（陛下、助けを求めて参りました）のように使います。王子・王女には "Your Highness"（殿下）、騎士・貴族には "My Lord / My Lady"（閣下・奥方）を使い分けましょう。
-      - body: "Your Highness"
+          正解！<b>Help me, please!</b> は緊急時に使える最もシンプルな表現です。とっさの場面では "Help!" だけでも十分伝わります。"Please help me." は落ち着いて丁寧にお願いする場面向きで、緊急度が少し下がります。状況に応じて使い分けましょう。
+      - body: "I need a help!"
         is_correct: false
         feedback: |-
-          惜しい！王・女王への敬称は <b>Your Majesty</b>（陛下）です。"Your Highness"（殿下）は王子・王女・格下の貴族への敬称。王様に "Your Highness" と言うと失礼になる場合があります。"Your Majesty" が王族の最高敬称と覚えましょう。
-      - body: "Your Excellence"
+          惜しい！"help" は不可算名詞なので "a help" とは言いません。「助けが必要です」は <b>I need help.</b> が正しい表現です。緊急時には <b>Help me, please!</b> や "Help!" がより自然です。
+      - body: "Please do help for me!"
         is_correct: false
         feedback: |-
-          惜しい！王への敬称は <b>Your Majesty</b> です。"Your Excellency"（閣下）は大使・総督などへの敬称です（"Excellence" ではなく "Excellency" が正しいスペルです）。王には "Your Majesty"、外交官・高官には "Your Excellency" を使い分けましょう。
+          惜しい！文法的に不自然です。「助けてください」は <b>Help me, please!</b> または "Please help me." が正しい表現です。"help" の後には "me" のような目的語を直接続けましょう。
   - step_number: 5
-    body: "中世的な「助けてください！」の表現は？"
+    body: "「食べ物と水をいただけますか？」を英語で言うと？"
     choices:
-      - body: "I beseech thee, help me!"
+      - body: "Could I have some food and water?"
         is_correct: true
         feedback: |-
-          正解！<b>I beseech thee, help me!</b>（どうかお助けを！）"beseech"（懇願する）は中世・古典英語の丁寧な懇願表現です。現代では "I beg you" や "Please help me" に相当します。"I beseech thee" はシェイクスピア作品にも頻出する表現です。
-      - body: "Please help me!"
+          正解！<b>Could I have some food and water?</b> は丁寧にものを頼む定番表現です。"Could I have〜?" は「〜をいただけますか？」という意味で、レストランや誰かに何かをお願いする場面で広く使えます。より切迫した状況なら "I need food and water."（食べ物と水が必要です）も使えます。
+      - body: "Give me food and water."
         is_correct: false
         feedback: |-
-          惜しい！現代英語としては正しいですが、中世の英会話では <b>I beseech thee, help me!</b> の方が時代考証的です。"beseech"（懇願する）、"thee"（あなたに）という古英語を使うことで、中世の人々に自然に伝わります。
-      - body: "Assist me now!"
+          惜しい！"Give me〜" は命令口調で失礼な印象を与えます。特に見知らぬ人にお願いするときは <b>Could I have some food and water?</b> のように丁寧な表現を使いましょう。"Can I have〜?" も同様に使えますが、"Could I have〜?" の方がより丁寧です。
+      - body: "I want food and water."
         is_correct: false
         feedback: |-
-          惜しい！中世の懇願表現は <b>I beseech thee, help me!</b> です。"Assist me now!" は命令口調で無礼な印象を与えます。特に相手が騎士や貴族の場合、丁寧な懇願表現が身を守ることに繋がります。
+          惜しい！"I want〜" は希望を伝えられますが、人にお願いする場面では少し直接的です。<b>Could I have some food and water?</b> の方が丁寧で自然な依頼表現です。"I want〜" は独り言や状況説明には使えますが、お願いには "Could I have〜?" を使いましょう。
   - step_number: 6
-    body: "「食べ物と宿を提供してください」を中世風に言うと？"
+    body: "「私の言葉が分かりますか？」を英語で言うと？"
     choices:
-      - body: "I seek food and shelter."
+      - body: "Do you understand me?"
         is_correct: true
         feedback: |-
-          正解！<b>I seek food and shelter.</b>（食料と宿を求めております）"seek"（求める・探す）は現代でも使いますが、中世風の丁寧な表現として自然です。"shelter"（シェルター・宿・避難場所）は "lodging"（宿泊）とも言えます。旅人として城や修道院の門をたたく際の定番フレーズです。
-      - body: "Give me food and a room."
+          正解！<b>Do you understand me?</b> は「私の言っていることが分かりますか？」という意味です。言葉が通じているか確認したい場面で使えます。"Can you understand me?"（私の言葉は分かりますか？）もほぼ同じ意味です。英語が伝わっているか不安なときに便利な表現です。
+      - body: "You understand my words?"
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>I seek food and shelter.</b> です。"Give me〜" は命令口調で、中世では非常に無礼です。見知らぬ土地で助けを求める旅人は謙虚に "I seek〜"（〜を求めております）と言う方が、歓迎されやすいでしょう。
-      - body: "I need something to eat and sleep."
+          惜しい！語順が不自然です。英語の疑問文は動詞を主語の前に出します。「分かりますか？」は <b>Do you understand me?</b> が正しい語順です。"You understand my words?" は文語的またはくだけた場面でのみ使われます。
+      - body: "Can you hear my language?"
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>I seek food and shelter.</b> です。意味は通じますが、"I seek〜" の方が中世風の格調ある表現です。"seek"（求める・探し求める）は古風で丁寧なニュアンスを持ち、中世の文脈に自然に溶け込みます。
+          惜しい！"Can you hear〜?" は「聞こえますか？」という意味になり、「理解できますか？」とは異なります。「言葉が通じていますか？」は <b>Do you understand me?</b> が適切です。"understand"（理解する）と "hear"（聞こえる）を使い分けましょう。
   - step_number: 7
-    body: "「剣」を英語で言うと？"
+    body: "「危険です、逃げてください！」を英語で言うと？"
     choices:
-      - body: "sword"
+      - body: "It's dangerous! Run!"
         is_correct: true
         feedback: |-
-          正解！「剣」は <b>sword</b>（発音：ソード、"w" は黙字）です。"Lower your sword!"（剣を収めよ！）、"He who lives by the sword dies by the sword."（剣を取る者は剣で滅びる）のような表現もあります。騎士の武器として最も重要な単語です。
-      - body: "blade"
+          正解！<b>It's dangerous! Run!</b> は緊急を知らせる簡潔で力強い表現です。緊急時は短くシンプルな表現が最も伝わります。"Watch out!"（気をつけて！）や "Get out of here!"（ここから逃げて！）も緊急時に使える便利な表現です。
+      - body: "There is danger, please escape!"
         is_correct: false
         feedback: |-
-          惜しい！「剣」は <b>sword</b> です。"blade" は「刃（刃物全般の切れる部分）」を指します。"blade" は剣の一部（刃の部分）ですが、剣全体を指す場合は "sword" が正確です。"The sword has a sharp blade."（その剣は刃が鋭い）のように使い分けます。
-      - body: "dagger"
+          惜しい！意味は通じますが、緊急時には <b>It's dangerous! Run!</b> のような短くシンプルな表現が瞬時に伝わります。"escape" は「脱出する（計画的・状況的）」というニュアンスがあり、咄嗟の指示には "Run!"（逃げろ！）の方が自然です。
+      - body: "Be careful of danger!"
         is_correct: false
         feedback: |-
-          惜しい！「剣」は <b>sword</b> です。"dagger" は「短剣・ダガー（短くて刺す武器）」のこと。長い両刃の武器は "sword"、短い刃物は "dagger" または "knife" と区別されます。
+          惜しい！"Be careful"（気をつけて）は注意を促す表現ですが、今すぐ逃げるよう促すには不十分です。緊急時には <b>It's dangerous! Run!</b> のように行動を直接指示する表現を使いましょう。
   - step_number: 8
-    body: "「魔女だ！」を英語で言うと？（中世の魔女裁判を想定して）"
+    body: "「私は敵ではありません」を英語で言うと？"
     choices:
-      - body: "She's a witch!"
+      - body: "I'm not your enemy."
         is_correct: true
         feedback: |-
-          正解！<b>She's a witch!</b> 中世では魔女の告発は命取りでした。現代では "witch hunt"（魔女狩り）が「不当な迫害・攻撃」の比喩として使われます。"witch"（魔女）、"wizard"（男性の魔法使い）、"sorcerer"（魔術師）も合わせて覚えておきましょう。身に覚えのない告発を受けたら "I am no witch!"（私は魔女ではない！）と反論しましょう。
-      - body: "She's magical!"
+          正解！<b>I'm not your enemy.</b> は「私はあなたの敵ではありません」という意味で、誤解を解きたい場面で使える表現です。"I mean no harm."（悪意はありません）や "I come in peace."（平和的にやってきました）も同様の場面で使える便利なフレーズです。
+      - body: "I am not enemy."
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>She's a witch!</b> です。"magical" は「魔法のような・素晴らしい（現代では肯定的）」という意味で、中世の魔女告発としては伝わりません。中世の文脈では "witch"（魔女）という直接的な言葉が使われました。
-      - body: "Beware, she casts spells!"
+          惜しい！"enemy" の前に冠詞 "an" が必要です。また、誰の敵でもないことを明確にするため "your" も加えましょう。正しくは <b>I'm not your enemy.</b> です。
+      - body: "Don't think I am bad."
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>She's a witch!</b> です。"cast spells"（呪文をかける）も関連表現ですが、告発の際のシンプルな表現は "She's a witch!" です。"Beware〜" は「気をつけよ」という警告表現として覚えておきましょう。
+          惜しい！意味は伝わりますが、不自然な表現です。「敵ではない」と伝える場合は <b>I'm not your enemy.</b> が最も直接的で自然です。"I mean no harm."（悪意はありません）も覚えておくと便利です。
   - step_number: 9
-    body: "「私は未来から来ました」を英語で言うと？"
+    body: "「一番近い村はどこですか？」を英語で言うと？"
     choices:
-      - body: "I have come from the future."
+      - body: "Where is the nearest village?"
         is_correct: true
         feedback: |-
-          正解！<b>I have come from the future.</b> "have come"（来た）は現在完了で、「旅を経て今ここにいる」というニュアンス。中世の人々に信じてもらえるかは別として、正確な英語表現です。現代風に "I'm from the future." と言っても伝わりますが、中世風の格調には "have come" が合っています。
-      - body: "I came from tomorrow."
+          正解！<b>Where is the nearest village?</b> は「一番近い村はどこですか？」の自然な表現です。"nearest"（最も近い）は "near" の最上級です。"village"（村）を "town"（町）、"hospital"（病院）、"shelter"（避難場所）などに替えると様々な場面で応用できます。
+      - body: "Where is the most near village?"
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>I have come from the future.</b> です。"from tomorrow"（明日から）は意味が不明瞭です。「未来」は "the future" という名詞で表します。"from the future" で「未来の時代から」という意味になります。
-      - body: "I traveled through time."
+          惜しい！"near" の最上級は "most near" ではなく <b>nearest</b> です。1〜2音節の形容詞は "-est" をつけて最上級にします。正しくは <b>Where is the nearest village?</b> です。
+      - body: "Which village is close?"
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>I have come from the future.</b> です。"I traveled through time" は「タイムトラベルした」という説明になりますが、出身を伝えるには "I have come from the future." の方が端的です。信じてもらうには別の証拠が必要になるでしょうが…。
+          惜しい！"Which village is close?" は「どの村が近いですか？」という意味になり、複数の村から選ぶニュアンスになります。「一番近い村」を尋ねるには <b>Where is the nearest village?</b> が自然です。
   - step_number: 10
-    body: "中世風の別れの言葉は？"
+    body: "「ありがとうございます、助かりました」を英語で言うと？"
     choices:
-      - body: "Fare thee well."
+      - body: "Thank you, you saved me."
         is_correct: true
         feedback: |-
-          正解！<b>Fare thee well.</b>（ご機嫌よう・良い旅を）"fare"（過ごす・やっていく）は古語で、"How do you fare?"（ご機嫌いかが？）としても使われました。現代の "Farewell!"（さようなら）はここから来ています。"Godspeed."（神のご加護を）も中世風の別れの言葉として覚えておきましょう。
-      - body: "Goodbye!"
+          正解！<b>Thank you, you saved me.</b> は「ありがとうございます、助かりました（あなたが救ってくれました）」という感謝の表現です。"save"（救う）は日常でも「データを保存する」「節約する」など幅広く使う重要動詞です。より強く感謝するなら "I can't thank you enough."（感謝しきれません）も使えます。
+      - body: "Thanks for your save."
         is_correct: false
         feedback: |-
-          惜しい！中世風の別れは <b>Fare thee well.</b> です。"Goodbye" は "God be with ye"（神があなたとともにあらんことを）が短縮されたものですが、現代的な響きがあります。中世ヨーロッパの雰囲気を出すなら "Fare thee well." や "Godspeed." を使いましょう。
-      - body: "See you later!"
+          惜しい！"save" は名詞として "Thanks for your save." とは使いません。「助けてくれてありがとう」は <b>Thank you, you saved me.</b> または "Thank you for saving me." が正しい表現です。
+      - body: "Thank you, I was saved."
         is_correct: false
         feedback: |-
-          惜しい！正解は <b>Fare thee well.</b> です。"See you later!" は完全に現代的なカジュアル表現。中世の人々には意味が通じないかもしれません。"Fare thee well."（ご健勝を）や "God be with you."（神のご加護を）が時代に合った別れの言葉です。
+          惜しい！"I was saved." は文法的に正しいですが、誰が助けてくれたのかが不明確です。感謝を伝える場面では <b>Thank you, you saved me.</b> のように相手を主語にした方が、より直接的で温かみのある表現になります。
