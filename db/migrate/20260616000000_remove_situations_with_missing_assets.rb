@@ -6,7 +6,6 @@ class RemoveSituationsWithMissingAssets < ActiveRecord::Migration[7.0]
 
   def up
     Situation.where(thumbnail: MISSING_THUMBNAILS).each(&:destroy)
-    Situation.where(id: 4).destroy_all
   end
 
   def down
